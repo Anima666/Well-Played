@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ArrayOfCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Command>
+    <name>natus_vincere</name>
+    <pl>
+      <Player>
+        <nickname>KuroKy</nickname>
+        <Fio>Kuro Salehi Takhasomi</Fio>
+        <country>Германия </country>
+        <rarity>0</rarity>
+        <coast>491</coast>
+        <soloMmr>7783</soloMmr>
+        <carry>0</carry>
+        <mid>0</mid>
+        <offlane>0</offlane>
+        <support>100</support>
+        <kills_min>0.07</kills_min>
+        <death_min>0.16</death_min>
+        <assist_min>0.31</assist_min>
+        <GPM>249</GPM>
+        <XPM>242</XPM>
+        <signatures>
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>God</nickname>
+        <Fio>Sergey Bragin</Fio>
+        <country>Россия </country>
+        <rarity>1</rarity>
+        <coast>1432</coast>
+        <soloMmr>7238</soloMmr>
+        <carry>6</carry>
+        <mid>83</mid>
+        <offlane>0</offlane>
+        <support>0</support>
+        <kills_min>0.16</kills_min>
+        <death_min>0.12</death_min>
+        <assist_min>0.26</assist_min>
+        <GPM>575</GPM>
+        <XPM>557</XPM>
+        <signatures>
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>Miracle-</nickname>
+        <Fio>Amer al-Barqawi</Fio>
+        <country>Иордания </country>
+        <rarity>2</rarity>
+        <coast>1414</coast>
+        <soloMmr>9106</soloMmr>
+        <carry>0</carry>
+        <mid>86</mid>
+        <offlane>6</offlane>
+        <support>6</support>
+        <kills_min>0.16</kills_min>
+        <death_min>0.09</death_min>
+        <assist_min>0.22</assist_min>
+        <GPM>590</GPM>
+        <XPM>524</XPM>
+        <signatures>
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>Miracle-</nickname>
+        <Fio>Amer al-Barqawi</Fio>
+        <country>Иордания </country>
+        <rarity>1</rarity>
+        <coast>1414</coast>
+        <soloMmr>9106</soloMmr>
+        <carry>0</carry>
+        <mid>86</mid>
+        <offlane>6</offlane>
+        <support>6</support>
+        <kills_min>0.16</kills_min>
+        <death_min>0.09</death_min>
+        <assist_min>0.22</assist_min>
+        <GPM>590</GPM>
+        <XPM>524</XPM>
+        <signatures>
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>Sumail</nickname>
+        <Fio>Syed Sumail Hassan</Fio>
+        <country>Пакистан </country>
+        <rarity>2</rarity>
+        <coast>1851</coast>
+        <soloMmr>7265</soloMmr>
+        <carry>0</carry>
+        <mid>56</mid>
+        <offlane>0</offlane>
+        <support>0</support>
+        <kills_min>0.2</kills_min>
+        <death_min>0.07</death_min>
+        <assist_min>0.21</assist_min>
+        <GPM>665</GPM>
+        <XPM>586</XPM>
+        <signatures>
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+        </signatures>
+      </Player>
+    </pl>
+  </Command>
+  <Command>
+    <name>natus_vincere</name>
+    <pl>
+      <Player>
+        <nickname>KuroKy</nickname>
+        <Fio>Kuro Salehi Takhasomi</Fio>
+        <country>Германия </country>
+        <rarity>0</rarity>
+        <coast>491</coast>
+        <soloMmr>7783</soloMmr>
+        <carry>0</carry>
+        <mid>0</mid>
+        <offlane>0</offlane>
+        <support>100</support>
+        <kills_min>0.07</kills_min>
+        <death_min>0.16</death_min>
+        <assist_min>0.31</assist_min>
+        <GPM>249</GPM>
+        <XPM>242</XPM>
+        <signatures>
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>God</nickname>
+        <Fio>Sergey Bragin</Fio>
+        <country>Россия </country>
+        <rarity>1</rarity>
+        <coast>1432</coast>
+        <soloMmr>7238</soloMmr>
+        <carry>6</carry>
+        <mid>93</mid>
+        <offlane>0</offlane>
+        <support>0</support>
+        <kills_min>0.16</kills_min>
+        <death_min>0.12</death_min>
+        <assist_min>0.26</assist_min>
+        <GPM>575</GPM>
+        <XPM>557</XPM>
+        <signatures>
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>Miracle-</nickname>
+        <Fio>Amer al-Barqawi</Fio>
+        <country>Иордания </country>
+        <rarity>2</rarity>
+        <coast>1414</coast>
+        <soloMmr>9106</soloMmr>
+        <carry>0</carry>
+        <mid>86</mid>
+        <offlane>6</offlane>
+        <support>6</support>
+        <kills_min>0.16</kills_min>
+        <death_min>0.09</death_min>
+        <assist_min>0.22</assist_min>
+        <GPM>590</GPM>
+        <XPM>524</XPM>
+        <signatures>
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>Miracle-</nickname>
+        <Fio>Amer al-Barqawi</Fio>
+        <country>Иордания </country>
+        <rarity>1</rarity>
+        <coast>1414</coast>
+        <soloMmr>9106</soloMmr>
+        <carry>0</carry>
+        <mid>86</mid>
+        <offlane>6</offlane>
+        <support>6</support>
+        <kills_min>0.16</kills_min>
+        <death_min>0.09</death_min>
+        <assist_min>0.22</assist_min>
+        <GPM>590</GPM>
+        <XPM>524</XPM>
+        <signatures>
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>Sumail</nickname>
+        <Fio>Syed Sumail Hassan</Fio>
+        <country>Пакистан </country>
+        <rarity>2</rarity>
+        <coast>1851</coast>
+        <soloMmr>7265</soloMmr>
+        <carry>0</carry>
+        <mid>100</mid>
+        <offlane>0</offlane>
+        <support>0</support>
+        <kills_min>0.2</kills_min>
+        <death_min>0.07</death_min>
+        <assist_min>0.21</assist_min>
+        <GPM>665</GPM>
+        <XPM>586</XPM>
+        <signatures>
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+          <string xsi:nil="true" />
+        </signatures>
+      </Player>
+    </pl>
+  </Command>
+</ArrayOfCommand>

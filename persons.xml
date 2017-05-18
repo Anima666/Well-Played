@@ -1,0 +1,2041 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ArrayOfCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />>rOtk</nickname>
+    <Fio>Bai Fan</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>813</coast>
+    <soloMmr>7592</soloMmr>
+    <carry>6</carry>
+    <mid>0</mid>
+    <offlane>93</offlane>
+    <support>0</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.18</death_min>
+    <assist_min>0.4</assist_min>
+    <GPM>385</GPM>
+    <XPM>428</XPM>
+  </Player>
+  <Player>
+    <nickname>Fenrir</nickname>
+    <Fio>Lu Chao</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>685</coast>
+    <soloMmr>7334</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.14</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.43</assist_min>
+    <GPM>324</GPM>
+    <XPM>361</XPM>
+  </Player>
+  <Player>
+    <nickname>fy</nickname>
+    <Fio>Xu Linsen</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>738</coast>
+    <soloMmr>8119</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.11</kills_min>
+    <death_min>0.08</death_min>
+    <assist_min>0.47</assist_min>
+    <GPM>357</GPM>
+    <XPM>381</XPM>
+  </Player>
+  <Player>
+    <nickname>Sylar</nickname>
+    <Fio>Liu Jiajun</Fio>
+    <country>Китай </country>
+    <rarity>1</rarity>
+    <coast>1323</coast>
+    <soloMmr>7209</soloMmr>
+    <carry>60</carry>
+    <mid>33</mid>
+    <offlane>6</offlane>
+    <support>0</support>
+    <kills_min>0.17</kills_min>
+    <death_min>0.17</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>525</GPM>
+    <XPM>498</XPM>
+  </Player>
+  <Player>
+    <nickname>uuu9</nickname>
+    <Fio>Xu Han</Fio>
+    <country>Китай </country>
+    <rarity>1</rarity>
+    <coast>1336</coast>
+    <soloMmr>8417</soloMmr>
+    <carry>100</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.17</kills_min>
+    <death_min>0.08</death_min>
+    <assist_min>0.25</assist_min>
+    <GPM>540</GPM>
+    <XPM>496</XPM>
+  </Player>
+  <Player>
+    <nickname>END</nickname>
+    <Fio>Yang Pu</Fio>
+    <country>Китай </country>
+    <rarity>1</rarity>
+    <coast>1460</coast>
+    <soloMmr>7749</soloMmr>
+    <carry>86</carry>
+    <mid>0</mid>
+    <offlane>13</offlane>
+    <support>0</support>
+    <kills_min>0.31</kills_min>
+    <death_min>0.06</death_min>
+    <assist_min>0.35</assist_min>
+    <GPM>579</GPM>
+    <XPM>581</XPM>
+  </Player>
+  <Player>
+    <nickname>xiao8</nickname>
+    <Fio>Ning Zhang</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>674</coast>
+    <soloMmr>8235</soloMmr>
+    <carry>60</carry>
+    <mid>6</mid>
+    <offlane>26</offlane>
+    <support>6</support>
+    <kills_min>0.11</kills_min>
+    <death_min>0.14</death_min>
+    <assist_min>0.44</assist_min>
+    <GPM>339</GPM>
+    <XPM>335</XPM>
+  </Player>
+  <Player>
+    <nickname>ddc</nickname>
+    <Fio>Liang Faming</Fio>
+    <country>Макао </country>
+    <rarity>0</rarity>
+    <coast>587</coast>
+    <soloMmr>7655</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.11</kills_min>
+    <death_min>0.14</death_min>
+    <assist_min>0.5</assist_min>
+    <GPM>286</GPM>
+    <XPM>301</XPM>
+  </Player>
+  <Player>
+    <nickname>Yao</nickname>
+    <Fio>Zheng Zheng Yao</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>767</coast>
+    <soloMmr>6934</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.43</assist_min>
+    <GPM>362</GPM>
+    <XPM>405</XPM>
+  </Player>
+  <Player>
+    <nickname>Xi</nickname>
+    <Fio>Luo Yinqi</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>884</coast>
+    <soloMmr>7010</soloMmr>
+    <carry>13</carry>
+    <mid>0</mid>
+    <offlane>26</offlane>
+    <support>60</support>
+    <kills_min>0.17</kills_min>
+    <death_min>0.14</death_min>
+    <assist_min>0.48</assist_min>
+    <GPM>431</GPM>
+    <XPM>453</XPM>
+  </Player>
+  <Player>
+    <nickname>Icy</nickname>
+    <Fio>Wang Peng</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>584</coast>
+    <soloMmr>6769</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.35</assist_min>
+    <GPM>272</GPM>
+    <XPM>312</XPM>
+  </Player>
+  <Player>
+    <nickname>JoHnNy</nickname>
+    <Fio>Lee Siong Tait</Fio>
+    <country>Малайзия </country>
+    <rarity>0</rarity>
+    <coast>601</coast>
+    <soloMmr>6974</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.17</death_min>
+    <assist_min>0.35</assist_min>
+    <GPM>297</GPM>
+    <XPM>304</XPM>
+  </Player>
+  <Player>
+    <nickname>Mushi</nickname>
+    <Fio>Chai Yee Fung</Fio>
+    <country>Малайзия </country>
+    <rarity>1</rarity>
+    <coast>1338</coast>
+    <soloMmr>7789</soloMmr>
+    <carry>13</carry>
+    <mid>86</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.18</kills_min>
+    <death_min>0.09</death_min>
+    <assist_min>0.2</assist_min>
+    <GPM>541</GPM>
+    <XPM>497</XPM>
+  </Player>
+  <Player>
+    <nickname>BurNIng</nickname>
+    <Fio>Xu Zhilei</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>762</coast>
+    <soloMmr>8602</soloMmr>
+    <carry>80</carry>
+    <mid>0</mid>
+    <offlane>20</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.28</assist_min>
+    <GPM>392</GPM>
+    <XPM>370</XPM>
+  </Player>
+  <Player>
+    <nickname>old</nickname>
+    <Fio>Zhang Zhicheng</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>517</coast>
+    <soloMmr>6787</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.06</kills_min>
+    <death_min>0.21</death_min>
+    <assist_min>0.29</assist_min>
+    <GPM>249</GPM>
+    <XPM>268</XPM>
+  </Player>
+  <Player>
+    <nickname>iceiceice</nickname>
+    <Fio>Daryl Koh Pei Xiang</Fio>
+    <country>Сингапур </country>
+    <rarity>0</rarity>
+    <coast>757</coast>
+    <soloMmr>7943</soloMmr>
+    <carry>26</carry>
+    <mid>0</mid>
+    <offlane>73</offlane>
+    <support>0</support>
+    <kills_min>0.09</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.27</assist_min>
+    <GPM>360</GPM>
+    <XPM>397</XPM>
+  </Player>
+  <Player>
+    <nickname>Faith</nickname>
+    <Fio>Zeng Hongda</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>566</coast>
+    <soloMmr>7320</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.06</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.39</assist_min>
+    <GPM>275</GPM>
+    <XPM>291</XPM>
+  </Player>
+  <Player>
+    <nickname>Ferrari_430</nickname>
+    <Fio>Luo Feichi</Fio>
+    <country>Китай </country>
+    <rarity>2</rarity>
+    <coast>1713</coast>
+    <soloMmr>8357</soloMmr>
+    <carry>7</carry>
+    <mid>92</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.06</death_min>
+    <assist_min>0.21</assist_min>
+    <GPM>602</GPM>
+    <XPM>511</XPM>
+  </Player>
+  <Player>
+    <nickname>MiSeRy</nickname>
+    <Fio>Rasmus Berth Filipsen</Fio>
+    <country>Дания </country>
+    <rarity>0</rarity>
+    <coast>571</coast>
+    <soloMmr>6823</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.05</kills_min>
+    <death_min>0.14</death_min>
+    <assist_min>0.3</assist_min>
+    <GPM>281</GPM>
+    <XPM>290</XPM>
+  </Player>
+  <Player>
+    <nickname>Brax</nickname>
+    <Fio>Braxton Paulson</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>848</coast>
+    <soloMmr>7493</soloMmr>
+    <carry>20</carry>
+    <mid>0</mid>
+    <offlane>80</offlane>
+    <support>0</support>
+    <kills_min>0.13</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>417</GPM>
+    <XPM>431</XPM>
+  </Player>
+  <Player>
+    <nickname>Pajkatt</nickname>
+    <Fio>Per Anders Olsson Lille</Fio>
+    <country>Швеция </country>
+    <rarity>1</rarity>
+    <coast>1424</coast>
+    <soloMmr>8459</soloMmr>
+    <carry>86</carry>
+    <mid>0</mid>
+    <offlane>13</offlane>
+    <support>0</support>
+    <kills_min>0.2</kills_min>
+    <death_min>0.1</death_min>
+    <assist_min>0.19</assist_min>
+    <GPM>561</GPM>
+    <XPM>563</XPM>
+  </Player>
+  <Player>
+    <nickname>Black^</nickname>
+    <Fio>Dominik Reitmeier</Fio>
+    <country>Германия </country>
+    <rarity>1</rarity>
+    <coast>1313</coast>
+    <soloMmr>8090</soloMmr>
+    <carry>73</carry>
+    <mid>6</mid>
+    <offlane>20</offlane>
+    <support>0</support>
+    <kills_min>0.13</kills_min>
+    <death_min>0.07</death_min>
+    <assist_min>0.18</assist_min>
+    <GPM>516</GPM>
+    <XPM>497</XPM>
+  </Player>
+  <Player>
+    <nickname>xfreedom</nickname>
+    <Fio>Nicholas Lim</Fio>
+    <country>Сингапур </country>
+    <rarity>0</rarity>
+    <coast>578</coast>
+    <soloMmr>6106</soloMmr>
+    <carry>13</carry>
+    <mid>0</mid>
+    <offlane>46</offlane>
+    <support>40</support>
+    <kills_min>0.07</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.26</assist_min>
+    <GPM>280</GPM>
+    <XPM>298</XPM>
+  </Player>
+  <Player>
+    <nickname>Liekkas</nickname>
+    <Fio>Wang Yutian</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>746</coast>
+    <soloMmr>6600</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>100</offlane>
+    <support>0</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.22</death_min>
+    <assist_min>0.31</assist_min>
+    <GPM>353</GPM>
+    <XPM>393</XPM>
+  </Player>
+  <Player>
+    <nickname>Agressif</nickname>
+    <Fio>Sun Zheng</Fio>
+    <country>Китай </country>
+    <rarity>1</rarity>
+    <coast>1354</coast>
+    <soloMmr>8441</soloMmr>
+    <carry>86</carry>
+    <mid>6</mid>
+    <offlane>6</offlane>
+    <support>0</support>
+    <kills_min>0.23</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.32</assist_min>
+    <GPM>531</GPM>
+    <XPM>523</XPM>
+  </Player>
+  <Player>
+    <nickname>s4</nickname>
+    <Fio>Gustav Magnusson</Fio>
+    <country>Швеция </country>
+    <rarity>0</rarity>
+    <coast>880</coast>
+    <soloMmr>8801</soloMmr>
+    <carry>6</carry>
+    <mid>0</mid>
+    <offlane>93</offlane>
+    <support>0</support>
+    <kills_min>0.18</kills_min>
+    <death_min>0.09</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>416</GPM>
+    <XPM>464</XPM>
+  </Player>
+  <Player>
+    <nickname>AdmiralBulldog</nickname>
+    <Fio>Henrik Ahnberg</Fio>
+    <country>Швеция </country>
+    <rarity>0</rarity>
+    <coast>920</coast>
+    <soloMmr>7594</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>100</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>460</GPM>
+    <XPM>460</XPM>
+  </Player>
+  <Player>
+    <nickname>EGM</nickname>
+    <Fio>Jerry Lundkvist</Fio>
+    <country>Швеция </country>
+    <rarity>0</rarity>
+    <coast>701</coast>
+    <soloMmr>7308</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.04</kills_min>
+    <death_min>0.18</death_min>
+    <assist_min>0.42</assist_min>
+    <GPM>321</GPM>
+    <XPM>380</XPM>
+  </Player>
+  <Player>
+    <nickname>Ace</nickname>
+    <Fio>Marcus Hoelgaard</Fio>
+    <country>Дания </country>
+    <rarity>2</rarity>
+    <coast>1980</coast>
+    <soloMmr>7894</soloMmr>
+    <carry>93</carry>
+    <mid>6</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.32</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.25</assist_min>
+    <GPM>661</GPM>
+    <XPM>719</XPM>
+  </Player>
+  <Player>
+    <nickname>Cr1t</nickname>
+    <Fio>Andreas Franck Nielsen</Fio>
+    <country>Дания </country>
+    <rarity>0</rarity>
+    <coast>493</coast>
+    <soloMmr>8008</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.07</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.31</assist_min>
+    <GPM>246</GPM>
+    <XPM>247</XPM>
+  </Player>
+  <Player>
+    <nickname>1437</nickname>
+    <Fio>Theeban Siva</Fio>
+    <country>Канада </country>
+    <rarity>0</rarity>
+    <coast>483</coast>
+    <soloMmr>7080</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.05</kills_min>
+    <death_min>0.17</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>250</GPM>
+    <XPM>233</XPM>
+  </Player>
+  <Player>
+    <nickname>Korok</nickname>
+    <Fio>Steven Ashworth</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>952</coast>
+    <soloMmr>6352</soloMmr>
+    <carry>100</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.16</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.16</assist_min>
+    <GPM>452</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>DeMoN</nickname>
+    <Fio>Jimmy Ho</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>529</coast>
+    <soloMmr>6606</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.06</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.27</assist_min>
+    <GPM>282</GPM>
+    <XPM>247</XPM>
+  </Player>
+  <Player>
+    <nickname>fluffnstuff</nickname>
+    <Fio>Brian Lee</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>492</coast>
+    <soloMmr>6641</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.22</assist_min>
+    <GPM>246</GPM>
+    <XPM>246</XPM>
+  </Player>
+  <Player>
+    <nickname>TC</nickname>
+    <Fio>Tyler Cook</Fio>
+    <country>Канада </country>
+    <rarity>1</rarity>
+    <coast>1340</coast>
+    <soloMmr>7699</soloMmr>
+    <carry>80</carry>
+    <mid>0</mid>
+    <offlane>20</offlane>
+    <support>0</support>
+    <kills_min>0.13</kills_min>
+    <death_min>0.09</death_min>
+    <assist_min>0.25</assist_min>
+    <GPM>531</GPM>
+    <XPM>509</XPM>
+  </Player>
+  <Player>
+    <nickname>Bulba</nickname>
+    <Fio>Kanishka &amp;quot;Sam&amp;quot; Sosale</Fio>
+    <country>Индия </country>
+    <rarity>0</rarity>
+    <coast>549</coast>
+    <soloMmr>7760</soloMmr>
+    <carry>6</carry>
+    <mid>0</mid>
+    <offlane>93</offlane>
+    <support>0</support>
+    <kills_min>0.09</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.27</assist_min>
+    <GPM>276</GPM>
+    <XPM>273</XPM>
+  </Player>
+  <Player>
+    <nickname>qojqva</nickname>
+    <Fio>Max Broecker</Fio>
+    <country>Германия </country>
+    <rarity>1</rarity>
+    <coast>1388</coast>
+    <soloMmr>8292</soloMmr>
+    <carry>13</carry>
+    <mid>86</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.18</kills_min>
+    <death_min>0.08</death_min>
+    <assist_min>0.17</assist_min>
+    <GPM>586</GPM>
+    <XPM>502</XPM>
+  </Player>
+  <Player>
+    <nickname>Fly</nickname>
+    <Fio>Tal Aizik</Fio>
+    <country>Израиль </country>
+    <rarity>0</rarity>
+    <coast>551</coast>
+    <soloMmr>7900</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.07</kills_min>
+    <death_min>0.1</death_min>
+    <assist_min>0.38</assist_min>
+    <GPM>289</GPM>
+    <XPM>262</XPM>
+  </Player>
+  <Player>
+    <nickname>N0tail</nickname>
+    <Fio>Johan Sundstein</Fio>
+    <country>Дания </country>
+    <rarity>1</rarity>
+    <coast>1352</coast>
+    <soloMmr>7533</soloMmr>
+    <carry>86</carry>
+    <mid>6</mid>
+    <offlane>6</offlane>
+    <support>0</support>
+    <kills_min>0.18</kills_min>
+    <death_min>0.1</death_min>
+    <assist_min>0.34</assist_min>
+    <GPM>565</GPM>
+    <XPM>487</XPM>
+  </Player>
+  <Player>
+    <nickname>Era</nickname>
+    <Fio>Adrian Kryeziu</Fio>
+    <country>Швеция </country>
+    <rarity>0</rarity>
+    <coast>921</coast>
+    <soloMmr>7825</soloMmr>
+    <carry>80</carry>
+    <mid>13</mid>
+    <offlane>6</offlane>
+    <support>0</support>
+    <kills_min>0.14</kills_min>
+    <death_min>0.1</death_min>
+    <assist_min>0.22</assist_min>
+    <GPM>478</GPM>
+    <XPM>443</XPM>
+  </Player>
+  <Player>
+    <nickname>Trixi</nickname>
+    <Fio>Kalle Saarinen</Fio>
+    <country>Финляндия </country>
+    <rarity>0</rarity>
+    <coast>789</coast>
+    <soloMmr>7947</soloMmr>
+    <carry>6</carry>
+    <mid>0</mid>
+    <offlane>93</offlane>
+    <support>0</support>
+    <kills_min>0.11</kills_min>
+    <death_min>0.14</death_min>
+    <assist_min>0.37</assist_min>
+    <GPM>387</GPM>
+    <XPM>402</XPM>
+  </Player>
+  <Player>
+    <nickname>Puppey</nickname>
+    <Fio>Clement Ivanov</Fio>
+    <country>Эстония </country>
+    <rarity>0</rarity>
+    <coast>681</coast>
+    <soloMmr>8034</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.45</assist_min>
+    <GPM>342</GPM>
+    <XPM>339</XPM>
+  </Player>
+  <Player>
+    <nickname>XBOCT</nickname>
+    <Fio>Alexander Dashkevich</Fio>
+    <country>Украина </country>
+    <rarity>1</rarity>
+    <coast>1415</coast>
+    <soloMmr>7110</soloMmr>
+    <carry>33</carry>
+    <mid>0</mid>
+    <offlane>66</offlane>
+    <support>0</support>
+    <kills_min>0.19</kills_min>
+    <death_min>0.09</death_min>
+    <assist_min>0.3</assist_min>
+    <GPM>563</GPM>
+    <XPM>552</XPM>
+  </Player>
+  <Player>
+    <nickname>Dendi</nickname>
+    <Fio>Danil Ishutin</Fio>
+    <country>Украина </country>
+    <rarity>0</rarity>
+    <coast>916</coast>
+    <soloMmr>7837</soloMmr>
+    <carry>0</carry>
+    <mid>100</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.16</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>452</GPM>
+    <XPM>464</XPM>
+  </Player>
+  <Player>
+    <nickname>Funn1k</nickname>
+    <Fio>Gleb Lipatnikov</Fio>
+    <country>Украина </country>
+    <rarity>0</rarity>
+    <coast>671</coast>
+    <soloMmr>7756</soloMmr>
+    <carry>13</carry>
+    <mid>6</mid>
+    <offlane>80</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.17</death_min>
+    <assist_min>0.3</assist_min>
+    <GPM>322</GPM>
+    <XPM>349</XPM>
+  </Player>
+  <Player>
+    <nickname>KuroKy</nickname>
+    <Fio>Kuro Salehi Takhasomi</Fio>
+    <country>Германия </country>
+    <rarity>0</rarity>
+    <coast>491</coast>
+    <soloMmr>7783</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.07</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.31</assist_min>
+    <GPM>249</GPM>
+    <XPM>242</XPM>
+  </Player>
+  <Player>
+    <nickname>God</nickname>
+    <Fio>Sergey Bragin</Fio>
+    <country>Россия </country>
+    <rarity>1</rarity>
+    <coast>1432</coast>
+    <soloMmr>7238</soloMmr>
+    <carry>6</carry>
+    <mid>93</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.16</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.26</assist_min>
+    <GPM>575</GPM>
+    <XPM>557</XPM>
+  </Player>
+  <Player>
+    <nickname>Illidan</nickname>
+    <Fio>Ilya Pivcaev</Fio>
+    <country>Россия </country>
+    <rarity>1</rarity>
+    <coast>1448</coast>
+    <soloMmr>7687</soloMmr>
+    <carry>80</carry>
+    <mid>13</mid>
+    <offlane>6</offlane>
+    <support>0</support>
+    <kills_min>0.18</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.2</assist_min>
+    <GPM>577</GPM>
+    <XPM>571</XPM>
+  </Player>
+  <Player>
+    <nickname>EternaLEnVy</nickname>
+    <Fio>Jacky Mao</Fio>
+    <country>Канада </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>7969</soloMmr>
+    <carry>40</carry>
+    <mid>60</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.14</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>bOne7</nickname>
+    <Fio>Armand Pittner</Fio>
+    <country>Румыния </country>
+    <rarity>0</rarity>
+    <coast>716</coast>
+    <soloMmr>6940</soloMmr>
+    <carry>53</carry>
+    <mid>0</mid>
+    <offlane>26</offlane>
+    <support>20</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.21</death_min>
+    <assist_min>0.39</assist_min>
+    <GPM>342</GPM>
+    <XPM>374</XPM>
+  </Player>
+  <Player>
+    <nickname>pieliedie</nickname>
+    <Fio>Johan Åström</Fio>
+    <country>Швеция </country>
+    <rarity>0</rarity>
+    <coast>637</coast>
+    <soloMmr>8163</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.14</death_min>
+    <assist_min>0.44</assist_min>
+    <GPM>314</GPM>
+    <XPM>323</XPM>
+  </Player>
+  <Player>
+    <nickname>SingSing</nickname>
+    <Fio>WehSing Yuen</Fio>
+    <country>Голландия </country>
+    <rarity>0</rarity>
+    <coast>875</coast>
+    <soloMmr>7756</soloMmr>
+    <carry>73</carry>
+    <mid>0</mid>
+    <offlane>26</offlane>
+    <support>0</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>457</GPM>
+    <XPM>418</XPM>
+  </Player>
+  <Player>
+    <nickname>Aui_2000</nickname>
+    <Fio>Kurtis Daniel Ling</Fio>
+    <country>Канада </country>
+    <rarity>1</rarity>
+    <coast>1269</coast>
+    <soloMmr>8025</soloMmr>
+    <carry>46</carry>
+    <mid>40</mid>
+    <offlane>13</offlane>
+    <support>0</support>
+    <kills_min>0.09</kills_min>
+    <death_min>0.09</death_min>
+    <assist_min>0.19</assist_min>
+    <GPM>512</GPM>
+    <XPM>457</XPM>
+  </Player>
+  <Player>
+    <nickname>arteezy</nickname>
+    <Fio>Artour Babaev</Fio>
+    <country>Канада </country>
+    <rarity>1</rarity>
+    <coast>1337</coast>
+    <soloMmr>7781</soloMmr>
+    <carry>86</carry>
+    <mid>0</mid>
+    <offlane>13</offlane>
+    <support>0</support>
+    <kills_min>0.15</kills_min>
+    <death_min>0.09</death_min>
+    <assist_min>0.25</assist_min>
+    <GPM>562</GPM>
+    <XPM>475</XPM>
+  </Player>
+  <Player>
+    <nickname>Bimbo</nickname>
+    <Fio>Ryan Jay Qui</Fio>
+    <country>Филиппины </country>
+    <rarity>2</rarity>
+    <coast>1793</coast>
+    <soloMmr>7124</soloMmr>
+    <carry>86</carry>
+    <mid>13</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.27</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.29</assist_min>
+    <GPM>604</GPM>
+    <XPM>589</XPM>
+  </Player>
+  <Player>
+    <nickname>Owa</nickname>
+    <Fio>Joshua Dela Serna</Fio>
+    <country>Филиппины </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>6861</soloMmr>
+    <carry>6</carry>
+    <mid>0</mid>
+    <offlane>6</offlane>
+    <support>86</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.34</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>JessieVash</nickname>
+    <Fio>Jessie Cristy Cuyco</Fio>
+    <country>Филиппины </country>
+    <rarity>0</rarity>
+    <coast>552</coast>
+    <soloMmr>6613</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.31</assist_min>
+    <GPM>286</GPM>
+    <XPM>266</XPM>
+  </Player>
+  <Player>
+    <nickname>julz</nickname>
+    <Fio>Julius De Leon</Fio>
+    <country>Филиппины </country>
+    <rarity>0</rarity>
+    <coast>696</coast>
+    <soloMmr>7172</soloMmr>
+    <carry>93</carry>
+    <mid>0</mid>
+    <offlane>6</offlane>
+    <support>0</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.14</death_min>
+    <assist_min>0.41</assist_min>
+    <GPM>336</GPM>
+    <XPM>360</XPM>
+  </Player>
+  <Player>
+    <nickname>aabBAA</nickname>
+    <Fio>Chanon Chiwpreecha</Fio>
+    <country>Тайланд </country>
+    <rarity>0</rarity>
+    <coast>634</coast>
+    <soloMmr>6206</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>26</offlane>
+    <support>73</support>
+    <kills_min>0.11</kills_min>
+    <death_min>0.19</death_min>
+    <assist_min>0.32</assist_min>
+    <GPM>307</GPM>
+    <XPM>327</XPM>
+  </Player>
+  <Player>
+    <nickname>NutZ</nickname>
+    <Fio>Wong Jeng Yih</Fio>
+    <country>Сингапур </country>
+    <rarity>0</rarity>
+    <coast>461</coast>
+    <soloMmr>6641</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.07</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>233</GPM>
+    <XPM>228</XPM>
+  </Player>
+  <Player>
+    <nickname>Fear</nickname>
+    <Fio>Clinton Loomis</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>7840</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>jeyo</nickname>
+    <Fio>Jio Madayag</Fio>
+    <country>Филиппины </country>
+    <rarity>1</rarity>
+    <coast>1338</coast>
+    <soloMmr>8107</soloMmr>
+    <carry>53</carry>
+    <mid>6</mid>
+    <offlane>0</offlane>
+    <support>40</support>
+    <kills_min>0.15</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>529</GPM>
+    <XPM>509</XPM>
+  </Player>
+  <Player>
+    <nickname>UNiVeRsE</nickname>
+    <Fio>Saahil Arora</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>682</coast>
+    <soloMmr>8148</soloMmr>
+    <carry>13</carry>
+    <mid>0</mid>
+    <offlane>86</offlane>
+    <support>0</support>
+    <kills_min>0.11</kills_min>
+    <death_min>0.08</death_min>
+    <assist_min>0.25</assist_min>
+    <GPM>336</GPM>
+    <XPM>346</XPM>
+  </Player>
+  <Player>
+    <nickname>fogged</nickname>
+    <Fio>Ioannis Loucas</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>6976</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>MSS</nickname>
+    <Fio>Arif Anwar</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>671</coast>
+    <soloMmr>8149</soloMmr>
+    <carry>13</carry>
+    <mid>0</mid>
+    <offlane>86</offlane>
+    <support>0</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.21</assist_min>
+    <GPM>338</GPM>
+    <XPM>333</XPM>
+  </Player>
+  <Player>
+    <nickname>YamateH</nickname>
+    <Fio>Ng Wei Poong</Fio>
+    <country>Малайзия </country>
+    <rarity>0</rarity>
+    <coast>912</coast>
+    <soloMmr>7684</soloMmr>
+    <carry>0</carry>
+    <mid>60</mid>
+    <offlane>20</offlane>
+    <support>20</support>
+    <kills_min>0.17</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.25</assist_min>
+    <GPM>451</GPM>
+    <XPM>461</XPM>
+  </Player>
+  <Player>
+    <nickname>WinteR</nickname>
+    <Fio>Chan Litt Binn</Fio>
+    <country>Малайзия </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>6607</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>633</nickname>
+    <Fio>Stanislav Glushan</Fio>
+    <country>Россия </country>
+    <rarity>0</rarity>
+    <coast>967</coast>
+    <soloMmr>7889</soloMmr>
+    <carry>73</carry>
+    <mid>0</mid>
+    <offlane>26</offlane>
+    <support>0</support>
+    <kills_min>0.17</kills_min>
+    <death_min>0.1</death_min>
+    <assist_min>0.24</assist_min>
+    <GPM>483</GPM>
+    <XPM>484</XPM>
+  </Player>
+  <Player>
+    <nickname>yol</nickname>
+    <Fio>Vladimir Basov</Fio>
+    <country>Россия </country>
+    <rarity>0</rarity>
+    <coast>566</coast>
+    <soloMmr>7209</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.06</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>287</GPM>
+    <XPM>279</XPM>
+  </Player>
+  <Player>
+    <nickname>Sedoy</nickname>
+    <Fio>Vadim Musorin</Fio>
+    <country>Россия </country>
+    <rarity>1</rarity>
+    <coast>1419</coast>
+    <soloMmr>8082</soloMmr>
+    <carry>100</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.24</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.29</assist_min>
+    <GPM>582</GPM>
+    <XPM>537</XPM>
+  </Player>
+  <Player>
+    <nickname>Scandal</nickname>
+    <Fio>Roman Sadotenkov</Fio>
+    <country>Россия </country>
+    <rarity>0</rarity>
+    <coast>880</coast>
+    <soloMmr>8277</soloMmr>
+    <carry>6</carry>
+    <mid>86</mid>
+    <offlane>6</offlane>
+    <support>0</support>
+    <kills_min>0.13</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.2</assist_min>
+    <GPM>440</GPM>
+    <XPM>440</XPM>
+  </Player>
+  <Player>
+    <nickname>Silent</nickname>
+    <Fio>Airat Gaziev</Fio>
+    <country>Россия </country>
+    <rarity>2</rarity>
+    <coast>1802</coast>
+    <soloMmr>6564</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.22</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.32</assist_min>
+    <GPM>634</GPM>
+    <XPM>568</XPM>
+  </Player>
+  <Player>
+    <nickname>VANSKOR</nickname>
+    <Fio>Ivan Skorokhod</Fio>
+    <country>Россия </country>
+    <rarity>0</rarity>
+    <coast>602</coast>
+    <soloMmr>7907</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>294</GPM>
+    <XPM>308</XPM>
+  </Player>
+  <Player>
+    <nickname>MAg-</nickname>
+    <Fio>Andrey Chipenko</Fio>
+    <country>Украина </country>
+    <rarity>0</rarity>
+    <coast>807</coast>
+    <soloMmr>7545</soloMmr>
+    <carry>6</carry>
+    <mid>0</mid>
+    <offlane>93</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.31</assist_min>
+    <GPM>389</GPM>
+    <XPM>418</XPM>
+  </Player>
+  <Player>
+    <nickname>ALWAYSWANNAFLY</nickname>
+    <Fio>Bondarenko Andrey</Fio>
+    <country>Украина </country>
+    <rarity>0</rarity>
+    <coast>548</coast>
+    <soloMmr>7514</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.22</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>279</GPM>
+    <XPM>269</XPM>
+  </Player>
+  <Player>
+    <nickname>Resolut1on</nickname>
+    <Fio>Roman Fominok</Fio>
+    <country>Украина </country>
+    <rarity>2</rarity>
+    <coast>1746</coast>
+    <soloMmr>8352</soloMmr>
+    <carry>93</carry>
+    <mid>6</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.16</kills_min>
+    <death_min>0.05</death_min>
+    <assist_min>0.21</assist_min>
+    <GPM>624</GPM>
+    <XPM>522</XPM>
+  </Player>
+  <Player>
+    <nickname>Lubby</nickname>
+    <Fio>Chan Jun Jie</Fio>
+    <country>Сингапур </country>
+    <rarity>0</rarity>
+    <coast>512</coast>
+    <soloMmr>6657</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.06</kills_min>
+    <death_min>0.18</death_min>
+    <assist_min>0.35</assist_min>
+    <GPM>246</GPM>
+    <XPM>266</XPM>
+  </Player>
+  <Player>
+    <nickname>poloson</nickname>
+    <Fio>Wilson Koh Chin Wei</Fio>
+    <country>Сингапур </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>6509</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>chibix33</nickname>
+    <Fio>Joel Chan Jian Yong</Fio>
+    <country>Сингапур </country>
+    <rarity>0</rarity>
+    <coast>932</coast>
+    <soloMmr>7202</soloMmr>
+    <carry>57</carry>
+    <mid>28</mid>
+    <offlane>14</offlane>
+    <support>0</support>
+    <kills_min>0.16</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.19</assist_min>
+    <GPM>487</GPM>
+    <XPM>445</XPM>
+  </Player>
+  <Player>
+    <nickname>Wagamama</nickname>
+    <Fio>Niklas</Fio>
+    <country>Швеция </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>7372</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>JerAx</nickname>
+    <Fio>Jesse Vainikka</Fio>
+    <country>Финляндия </country>
+    <rarity>0</rarity>
+    <coast>740</coast>
+    <soloMmr>7434</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.41</assist_min>
+    <GPM>337</GPM>
+    <XPM>403</XPM>
+  </Player>
+  <Player>
+    <nickname>ComeWithMe</nickname>
+    <Fio>Alexandru Craciunescu</Fio>
+    <country>Румыния </country>
+    <rarity>0</rarity>
+    <coast>701</coast>
+    <soloMmr>7515</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.18</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>337</GPM>
+    <XPM>364</XPM>
+  </Player>
+  <Player>
+    <nickname>Sneyking</nickname>
+    <Fio>Jingjun Wu</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>896</coast>
+    <soloMmr>7950</soloMmr>
+    <carry>13</carry>
+    <mid>0</mid>
+    <offlane>86</offlane>
+    <support>0</support>
+    <kills_min>0.17</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.3</assist_min>
+    <GPM>448</GPM>
+    <XPM>448</XPM>
+  </Player>
+  <Player>
+    <nickname>Zai</nickname>
+    <Fio>Ludwig Wåhlberg</Fio>
+    <country>Швеция </country>
+    <rarity>0</rarity>
+    <coast>541</coast>
+    <soloMmr>8185</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.05</kills_min>
+    <death_min>0.18</death_min>
+    <assist_min>0.3</assist_min>
+    <GPM>265</GPM>
+    <XPM>276</XPM>
+  </Player>
+  <Player>
+    <nickname>ppd</nickname>
+    <Fio>Peter Dager</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>541</coast>
+    <soloMmr>7531</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.04</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.3</assist_min>
+    <GPM>261</GPM>
+    <XPM>280</XPM>
+  </Player>
+  <Player>
+    <nickname>Crazy</nickname>
+    <Fio>Oleg Kolesnichenko</Fio>
+    <country>Россия </country>
+    <rarity>1</rarity>
+    <coast>1307</coast>
+    <soloMmr>7660</soloMmr>
+    <carry>0</carry>
+    <mid>100</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.14</kills_min>
+    <death_min>0.17</death_min>
+    <assist_min>0.25</assist_min>
+    <GPM>503</GPM>
+    <XPM>504</XPM>
+  </Player>
+  <Player>
+    <nickname>Shachlo</nickname>
+    <Fio>Maxim Abramovskikh</Fio>
+    <country>Россия </country>
+    <rarity>0</rarity>
+    <coast>848</coast>
+    <soloMmr>7384</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>100</offlane>
+    <support>0</support>
+    <kills_min>0.16</kills_min>
+    <death_min>0.14</death_min>
+    <assist_min>0.34</assist_min>
+    <GPM>424</GPM>
+    <XPM>424</XPM>
+  </Player>
+  <Player>
+    <nickname>Mstco</nickname>
+    <Fio>Ricardo Román Sandoval</Fio>
+    <country>Перу </country>
+    <rarity>0</rarity>
+    <coast>539</coast>
+    <soloMmr>7360</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.06</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.34</assist_min>
+    <GPM>264</GPM>
+    <XPM>275</XPM>
+  </Player>
+  <Player>
+    <nickname>i</nickname>
+    <Fio>Iwo Bejar</Fio>
+    <country>Перу </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>7855</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>Smash</nickname>
+    <Fio>Freddy Sina</Fio>
+    <country>Перу </country>
+    <rarity>0</rarity>
+    <coast>940</coast>
+    <soloMmr>7605</soloMmr>
+    <carry>26</carry>
+    <mid>6</mid>
+    <offlane>66</offlane>
+    <support>0</support>
+    <kills_min>0.18</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.24</assist_min>
+    <GPM>465</GPM>
+    <XPM>475</XPM>
+  </Player>
+  <Player>
+    <nickname>Masoku</nickname>
+    <Fio>Alex Dávila</Fio>
+    <country>Перу </country>
+    <rarity>0</rarity>
+    <coast>550</coast>
+    <soloMmr>6388</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.19</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>264</GPM>
+    <XPM>286</XPM>
+  </Player>
+  <Player>
+    <nickname>SunBhie</nickname>
+    <Fio>Lee Jeong-jae</Fio>
+    <country>Корея </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>6945</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>NoiA</nickname>
+    <Fio>Danny Mørch Junget</Fio>
+    <country>Дания </country>
+    <rarity>0</rarity>
+    <coast>577</coast>
+    <soloMmr>7689</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>99</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.41</assist_min>
+    <GPM>287</GPM>
+    <XPM>290</XPM>
+  </Player>
+  <Player>
+    <nickname>Chains</nickname>
+    <Fio>Wei Sheng Tan</Fio>
+    <country>Сингапур </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>6966</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>Net</nickname>
+    <Fio>Wai Pern Lim</Fio>
+    <country>Малайзия </country>
+    <rarity>0</rarity>
+    <coast>589</coast>
+    <soloMmr>6900</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.11</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.29</assist_min>
+    <GPM>271</GPM>
+    <XPM>318</XPM>
+  </Player>
+  <Player>
+    <nickname>Ky.xY</nickname>
+    <Fio>Lee Kong Yang</Fio>
+    <country>Малайзия </country>
+    <rarity>1</rarity>
+    <coast>1411</coast>
+    <soloMmr>7603</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>100</offlane>
+    <support>0</support>
+    <kills_min>0.2</kills_min>
+    <death_min>0.1</death_min>
+    <assist_min>0.21</assist_min>
+    <GPM>565</GPM>
+    <XPM>546</XPM>
+  </Player>
+  <Player>
+    <nickname>Ohaiyo</nickname>
+    <Fio>Chong Xin Khoo</Fio>
+    <country>Малайзия </country>
+    <rarity>0</rarity>
+    <coast>845</coast>
+    <soloMmr>7854</soloMmr>
+    <carry>20</carry>
+    <mid>0</mid>
+    <offlane>80</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.26</assist_min>
+    <GPM>429</GPM>
+    <XPM>416</XPM>
+  </Player>
+  <Player>
+    <nickname>Meracle</nickname>
+    <Fio>Galvin Kang Jian Wen</Fio>
+    <country>Сингапур </country>
+    <rarity>2</rarity>
+    <coast>1775</coast>
+    <soloMmr>7276</soloMmr>
+    <carry>46</carry>
+    <mid>33</mid>
+    <offlane>20</offlane>
+    <support>0</support>
+    <kills_min>0.24</kills_min>
+    <death_min>0.08</death_min>
+    <assist_min>0.24</assist_min>
+    <GPM>608</GPM>
+    <XPM>567</XPM>
+  </Player>
+  <Player>
+    <nickname>FzFz</nickname>
+    <Fio>Siew Cheng Hor</Fio>
+    <country>Малайзия </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>6542</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>MentalProtector</nickname>
+    <Fio>Pyo No-a</Fio>
+    <country>Корея </country>
+    <rarity>1</rarity>
+    <coast>1427</coast>
+    <soloMmr>8613</soloMmr>
+    <carry>73</carry>
+    <mid>6</mid>
+    <offlane>20</offlane>
+    <support>0</support>
+    <kills_min>0.23</kills_min>
+    <death_min>0.07</death_min>
+    <assist_min>0.32</assist_min>
+    <GPM>594</GPM>
+    <XPM>533</XPM>
+  </Player>
+  <Player>
+    <nickname>Febby</nickname>
+    <Fio>Kim Yong-min</Fio>
+    <country>Корея </country>
+    <rarity>0</rarity>
+    <coast>648</coast>
+    <soloMmr>7364</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.18</death_min>
+    <assist_min>0.28</assist_min>
+    <GPM>312</GPM>
+    <XPM>336</XPM>
+  </Player>
+  <Player>
+    <nickname>Kecik</nickname>
+    <Fio>Fadil Bin Mohd Raziff</Fio>
+    <country>Малайзия </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>6399</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>Buugi</nickname>
+    <Fio>Riku Fält</Fio>
+    <country>Финляндия </country>
+    <rarity>0</rarity>
+    <coast>538</coast>
+    <soloMmr>6797</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.05</kills_min>
+    <death_min>0.14</death_min>
+    <assist_min>0.34</assist_min>
+    <GPM>254</GPM>
+    <XPM>284</XPM>
+  </Player>
+  <Player>
+    <nickname>DJ</nickname>
+    <Fio>Djardel Jicko B. Mampusti</Fio>
+    <country>Филиппины </country>
+    <rarity>0</rarity>
+    <coast>892</coast>
+    <soloMmr>7117</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.11</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.31</assist_min>
+    <GPM>430</GPM>
+    <XPM>462</XPM>
+  </Player>
+  <Player>
+    <nickname>PandaEgo</nickname>
+    <Fio>Jared Fletcher</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>6389</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>Tudi</nickname>
+    <Fio>Yaowen Teo</Fio>
+    <country>Сингапур </country>
+    <rarity>0</rarity>
+    <coast>924</coast>
+    <soloMmr>7196</soloMmr>
+    <carry>73</carry>
+    <mid>0</mid>
+    <offlane>6</offlane>
+    <support>20</support>
+    <kills_min>0.13</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.26</assist_min>
+    <GPM>450</GPM>
+    <XPM>474</XPM>
+  </Player>
+  <Player>
+    <nickname>Dogf1ghts</nickname>
+    <Fio>Gao Tianpeng</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>679</coast>
+    <soloMmr>8027</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.09</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.49</assist_min>
+    <GPM>329</GPM>
+    <XPM>350</XPM>
+  </Player>
+  <Player>
+    <nickname>nihis</nickname>
+    <Fio>Atte Patja</Fio>
+    <country>Финляндия </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>7437</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>CeMaTheSlayeR</nickname>
+    <Fio>Semion Krivulya</Fio>
+    <country>Украина </country>
+    <rarity>0</rarity>
+    <coast>596</coast>
+    <soloMmr>7825</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.09</kills_min>
+    <death_min>0.17</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>307</GPM>
+    <XPM>289</XPM>
+  </Player>
+  <Player>
+    <nickname>UnderShock</nickname>
+    <Fio>Dmitry Bolshakov</Fio>
+    <country>Россия </country>
+    <rarity>0</rarity>
+    <coast>965</coast>
+    <soloMmr>7517</soloMmr>
+    <carry>6</carry>
+    <mid>93</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.15</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.24</assist_min>
+    <GPM>490</GPM>
+    <XPM>475</XPM>
+  </Player>
+  <Player>
+    <nickname>ArsZeeqq</nickname>
+    <Fio>Arseniy Usov</Fio>
+    <country>Россия </country>
+    <rarity>0</rarity>
+    <coast>605</coast>
+    <soloMmr>7082</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.11</kills_min>
+    <death_min>0.17</death_min>
+    <assist_min>0.47</assist_min>
+    <GPM>299</GPM>
+    <XPM>306</XPM>
+  </Player>
+  <Player>
+    <nickname>Miracle-</nickname>
+    <Fio>Amer al-Barqawi</Fio>
+    <country>Иордания </country>
+    <rarity>1</rarity>
+    <coast>1414</coast>
+    <soloMmr>9106</soloMmr>
+    <carry>0</carry>
+    <mid>86</mid>
+    <offlane>6</offlane>
+    <support>6</support>
+    <kills_min>0.16</kills_min>
+    <death_min>0.09</death_min>
+    <assist_min>0.22</assist_min>
+    <GPM>590</GPM>
+    <XPM>524</XPM>
+  </Player>
+  <Player>
+    <nickname>Lance</nickname>
+    <Fio>Fua Hsien Wan</Fio>
+    <country>Малайзия </country>
+    <rarity>1</rarity>
+    <coast>1391</coast>
+    <soloMmr>7909</soloMmr>
+    <carry>93</carry>
+    <mid>6</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.22</kills_min>
+    <death_min>0.08</death_min>
+    <assist_min>0.27</assist_min>
+    <GPM>575</GPM>
+    <XPM>516</XPM>
+  </Player>
+  <Player>
+    <nickname>ddz</nickname>
+    <Fio>Kok Yi Liong</Fio>
+    <country>Малайзия </country>
+    <rarity>0</rarity>
+    <coast>977</coast>
+    <soloMmr>8456</soloMmr>
+    <carry>6</carry>
+    <mid>93</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.19</kills_min>
+    <death_min>0.14</death_min>
+    <assist_min>0.26</assist_min>
+    <GPM>497</GPM>
+    <XPM>480</XPM>
+  </Player>
+  <Player>
+    <nickname>Sumail</nickname>
+    <Fio>Syed Sumail Hassan</Fio>
+    <country>Пакистан </country>
+    <rarity>2</rarity>
+    <coast>1851</coast>
+    <soloMmr>7265</soloMmr>
+    <carry>0</carry>
+    <mid>100</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.2</kills_min>
+    <death_min>0.07</death_min>
+    <assist_min>0.21</assist_min>
+    <GPM>665</GPM>
+    <XPM>586</XPM>
+  </Player>
+  <Player>
+    <nickname>eLeVeN</nickname>
+    <Fio>Ren Yangwei</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>766</coast>
+    <soloMmr>7523</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>100</offlane>
+    <support>0</support>
+    <kills_min>0.13</kills_min>
+    <death_min>0.19</death_min>
+    <assist_min>0.28</assist_min>
+    <GPM>363</GPM>
+    <XPM>403</XPM>
+  </Player>
+  <Player>
+    <nickname>InJuly</nickname>
+    <Fio>Xiaodong Yang</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>779</coast>
+    <soloMmr>7889</soloMmr>
+    <carry>33</carry>
+    <mid>0</mid>
+    <offlane>66</offlane>
+    <support>0</support>
+    <kills_min>0.11</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.42</assist_min>
+    <GPM>383</GPM>
+    <XPM>396</XPM>
+  </Player>
+  <Player>
+    <nickname>air</nickname>
+    <Fio>Yuxiao Yin</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>6836</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+  </Player>
+  <Player>
+    <nickname>SexyBamboe</nickname>
+    <Fio>Alaan Faraj</Fio>
+    <country>Голландия </country>
+    <rarity>0</rarity>
+    <coast>719</coast>
+    <soloMmr>7550</soloMmr>
+    <carry>26</carry>
+    <mid>0</mid>
+    <offlane>73</offlane>
+    <support>0</support>
+    <kills_min>0.13</kills_min>
+    <death_min>0.22</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>360</GPM>
+    <XPM>359</XPM>
+  </Player>
+  <Player>
+    <nickname>ryOyr</nickname>
+    <Fio>Ryo Hasegawa</Fio>
+    <country>Филиппины </country>
+    <rarity>1</rarity>
+    <coast>1310</coast>
+    <soloMmr>6896</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.19</kills_min>
+    <death_min>0.08</death_min>
+    <assist_min>0.27</assist_min>
+    <GPM>521</GPM>
+    <XPM>489</XPM>
+  </Player>
+</ArrayOfPlayer>
