@@ -25,7 +25,6 @@ public class MainPlayer : MonoBehaviour {
     {
         text = GetComponentInChildren<TextMesh>();
         backGroundSprites = GetComponentsInChildren<SpriteRenderer>();
-       // print("lol");
     }
     public Player player  = new Player();
     public Sprite sp;
@@ -84,10 +83,11 @@ public class MainPlayer : MonoBehaviour {
     //}
     void OnMouseDown()
     {
-       
         if (SceneManager.GetActiveScene().name == "setRole")
         {
-            TetstClassic.curr_cards[TetstClassic.count] = int.Parse(this.name); 
+            TetstClassic.curr_cards[TetstClassic.count] = int.Parse(this.name);
+            TetstClassic.last_nickname = player.nickname;
+
         }
        LoadSceneOfDataPlayer();
     }

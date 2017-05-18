@@ -91,6 +91,16 @@ public class Global2 : MonoBehaviour {
         People = formatter.Deserialize(reader) as List<Player>;
         reader.Close();
     }
+    public void SerilizeRole(string path, List<Role_player> rp)
+    {
+         XmlSerializer formatter = new XmlSerializer(typeof(List<Role_player>));
+        using (FileStream fs = new FileStream(path+".xml", FileMode.OpenOrCreate))
+        {
+            formatter.Serialize(fs, rp);
+            print("Объект сериализован");
+   
+        }
+    }
 
     void Update ()
     {

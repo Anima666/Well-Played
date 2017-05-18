@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public static class TetstClassic
 {
@@ -12,8 +12,9 @@ public static class TetstClassic
     public static int[] curr_cards = new int[6]; //использую тоже в Match
 
     static public string[] Role = new string[5];
+    static public List<Role_player> role_playes = new List<Role_player>();
 
-    //public static int c;
+    static public string last_nickname;
 
 
 }

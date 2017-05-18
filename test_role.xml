@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ArrayOfRole_player xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Role_player>
+    <name>KuroKy</name>
+    <role>carry</role>
+  </Role_player>
+  <Role_player>
+    <name>God</name>
+    <role>mid</role>
+  </Role_player>
+  <Role_player>
+    <name>Miracle-</name>
+    <role>supp</role>
+  </Role_player>
+  <Role_player>
+    <name>Miracle-</name>
+    <role>supp</role>
+  </Role_player>
+  <Role_player>
+    <name>Sumail</name>
+    <role>mid</role>
+  </Role_player>
+</ArrayOfRole_player>

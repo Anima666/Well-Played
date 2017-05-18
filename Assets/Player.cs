@@ -19,6 +19,7 @@ public class Player
     public double assist_min;
 
     public int GPM;
+    public string Role;
     public int XPM;
 
     public string[] signatures = new string[3];

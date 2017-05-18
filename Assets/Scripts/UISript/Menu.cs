@@ -48,12 +48,18 @@ public class Menu : MonoBehaviour {
     {
         SceneManager.LoadScene(TetstClassic.lastscene);
     }
+    Role_player nr = new Role_player();
     public void SetRole()
     {
-        
-        TetstClassic.Role[TetstClassic.count] = "322";
+
+       
+        nr.role = TetstClassic.Role[TetstClassic.count];
+        nr.name = TetstClassic.last_nickname;
+        TetstClassic.role_playes.Add(nr);
+      
         TetstClassic.count++;
         SceneManager.LoadScene("setRole");
+
        
     }
     public void OpenSetRole()
