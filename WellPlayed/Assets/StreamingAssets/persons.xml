@@ -1,0 +1,1235 @@
+<?xml version="1.0"?>
+<ArrayOfPlayer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Player>
+    <nickname>Fenrir</nickname>
+    <Fio>Lu Chao</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>685</coast>
+    <soloMmr>7334</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.14</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.43</assist_min>
+    <GPM>324</GPM>
+    <XPM>361</XPM>
+    <signatures>
+      <string>Shadow Demon</string>
+      <string>Skywrath Mage</string>
+      <string>Visage</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Sylar</nickname>
+    <Fio>Liu Jiajun</Fio>
+    <country>Китай </country>
+    <rarity>1</rarity>
+    <coast>1323</coast>
+    <soloMmr>7262</soloMmr>
+    <carry>60</carry>
+    <mid>33</mid>
+    <offlane>6</offlane>
+    <support>0</support>
+    <kills_min>0.17</kills_min>
+    <death_min>0.17</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>525</GPM>
+    <XPM>498</XPM>
+    <signatures>
+      <string>Lycan</string>
+      <string>Morphling</string>
+      <string>Anti Mage</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Yao</nickname>
+    <Fio>Zheng Zheng Yao</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>767</coast>
+    <soloMmr>7033</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.43</assist_min>
+    <GPM>362</GPM>
+    <XPM>405</XPM>
+    <signatures>
+      <string>Dark Seer</string>
+      <string>Invoker</string>
+      <string>Clockwerk</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Icy</nickname>
+    <Fio>Wang Peng</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>584</coast>
+    <soloMmr>6769</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.35</assist_min>
+    <GPM>272</GPM>
+    <XPM>312</XPM>
+    <signatures>
+      <string>Earthshaker</string>
+      <string>Rubick</string>
+      <string>Dazzle</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>JoHnNy</nickname>
+    <Fio>Lee Siong Tait</Fio>
+    <country>Малайзия </country>
+    <rarity>0</rarity>
+    <coast>601</coast>
+    <soloMmr>6948</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.17</death_min>
+    <assist_min>0.35</assist_min>
+    <GPM>297</GPM>
+    <XPM>304</XPM>
+    <signatures>
+      <string>Chen</string>
+      <string>Ancient Apparition</string>
+      <string>Enchantress</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Mushi</nickname>
+    <Fio>Chai Yee Fung</Fio>
+    <country>Малайзия </country>
+    <rarity>1</rarity>
+    <coast>1338</coast>
+    <soloMmr>7842</soloMmr>
+    <carry>13</carry>
+    <mid>86</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.18</kills_min>
+    <death_min>0.09</death_min>
+    <assist_min>0.2</assist_min>
+    <GPM>541</GPM>
+    <XPM>497</XPM>
+    <signatures>
+      <string>Shadow Fiend</string>
+      <string>Queen of Pain</string>
+      <string>Outworld Devourer</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>BurNIng</nickname>
+    <Fio>Xu Zhilei</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>762</coast>
+    <soloMmr>8602</soloMmr>
+    <carry>86</carry>
+    <mid>0</mid>
+    <offlane>13</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.28</assist_min>
+    <GPM>392</GPM>
+    <XPM>370</XPM>
+    <signatures>
+      <string>Anti Mage</string>
+      <string>Morphling</string>
+      <string>Luna</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Faith</nickname>
+    <Fio>Zeng Hongda</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>566</coast>
+    <soloMmr>7320</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.06</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.39</assist_min>
+    <GPM>275</GPM>
+    <XPM>291</XPM>
+    <signatures>
+      <string>Ancient Apparition</string>
+      <string>Shadow Demon</string>
+      <string>Shadow Shaman</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Ferrari_430</nickname>
+    <Fio>Luo Feichi</Fio>
+    <country>Китай </country>
+    <rarity>2</rarity>
+    <coast>1713</coast>
+    <soloMmr>8515</soloMmr>
+    <carry>7</carry>
+    <mid>92</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.06</death_min>
+    <assist_min>0.21</assist_min>
+    <GPM>602</GPM>
+    <XPM>511</XPM>
+    <signatures>
+      <string>Shadow Fiend</string>
+      <string>Queen of Pain</string>
+      <string>Invoker</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>MiSeRy</nickname>
+    <Fio>Rasmus Berth Filipsen</Fio>
+    <country>Дания </country>
+    <rarity>0</rarity>
+    <coast>571</coast>
+    <soloMmr>6823</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.05</kills_min>
+    <death_min>0.14</death_min>
+    <assist_min>0.3</assist_min>
+    <GPM>281</GPM>
+    <XPM>290</XPM>
+    <signatures>
+      <string>Lion</string>
+      <string>Slardar</string>
+      <string>Nyx Assassin</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Brax</nickname>
+    <Fio>Braxton Paulson</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>848</coast>
+    <soloMmr>7567</soloMmr>
+    <carry>20</carry>
+    <mid>0</mid>
+    <offlane>80</offlane>
+    <support>0</support>
+    <kills_min>0.13</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>417</GPM>
+    <XPM>431</XPM>
+    <signatures>
+      <string>Dark Seer</string>
+      <string>Batrider</string>
+      <string>Storm Spirit</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Pajkatt</nickname>
+    <Fio>Per Anders Olsson Lille</Fio>
+    <country>Швеция </country>
+    <rarity>1</rarity>
+    <coast>1424</coast>
+    <soloMmr>8577</soloMmr>
+    <carry>86</carry>
+    <mid>0</mid>
+    <offlane>13</offlane>
+    <support>0</support>
+    <kills_min>0.2</kills_min>
+    <death_min>0.1</death_min>
+    <assist_min>0.19</assist_min>
+    <GPM>561</GPM>
+    <XPM>563</XPM>
+    <signatures>
+      <string>Queen of Pain</string>
+      <string>Sniper</string>
+      <string>Mirana</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Black^</nickname>
+    <Fio>Dominik Reitmeier</Fio>
+    <country>Германия </country>
+    <rarity>1</rarity>
+    <coast>1313</coast>
+    <soloMmr>8090</soloMmr>
+    <carry>80</carry>
+    <mid>0</mid>
+    <offlane>20</offlane>
+    <support>0</support>
+    <kills_min>0.13</kills_min>
+    <death_min>0.07</death_min>
+    <assist_min>0.18</assist_min>
+    <GPM>516</GPM>
+    <XPM>497</XPM>
+    <signatures>
+      <string>Anti Mage</string>
+      <string>Gyrocopter</string>
+      <string>Faceless Void</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Liekkas</nickname>
+    <Fio>Wang Yutian</Fio>
+    <country>Китай </country>
+    <rarity>0</rarity>
+    <coast>746</coast>
+    <soloMmr>6600</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>100</offlane>
+    <support>0</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.22</death_min>
+    <assist_min>0.31</assist_min>
+    <GPM>353</GPM>
+    <XPM>393</XPM>
+    <signatures>
+      <string>Timbersaw</string>
+      <string>Faceless Void</string>
+      <string>Batrider</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Agressif</nickname>
+    <Fio>Sun Zheng</Fio>
+    <country>Китай </country>
+    <rarity>1</rarity>
+    <coast>1354</coast>
+    <soloMmr>8439</soloMmr>
+    <carry>86</carry>
+    <mid>0</mid>
+    <offlane>13</offlane>
+    <support>0</support>
+    <kills_min>0.23</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.32</assist_min>
+    <GPM>531</GPM>
+    <XPM>523</XPM>
+    <signatures>
+      <string>Gyrocopter</string>
+      <string>Phantom Lancer</string>
+      <string>Ember Spirit</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>AdmiralBulldog</nickname>
+    <Fio>Henrik Ahnberg</Fio>
+    <country>Швеция </country>
+    <rarity>0</rarity>
+    <coast>920</coast>
+    <soloMmr>7594</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>100</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>460</GPM>
+    <XPM>460</XPM>
+    <signatures>
+      <string>Nature&amp;#39;s Prophet</string>
+      <string>Lone Druid</string>
+      <string>Broodmother</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>EGM</nickname>
+    <Fio>Jerry Lundkvist</Fio>
+    <country>Швеция </country>
+    <rarity>0</rarity>
+    <coast>701</coast>
+    <soloMmr>7308</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.04</kills_min>
+    <death_min>0.18</death_min>
+    <assist_min>0.42</assist_min>
+    <GPM>321</GPM>
+    <XPM>380</XPM>
+    <signatures>
+      <string>Io</string>
+      <string>Rubick</string>
+      <string>Shadow Demon</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Ace</nickname>
+    <Fio>Marcus Hoelgaard</Fio>
+    <country>Дания </country>
+    <rarity>2</rarity>
+    <coast>1980</coast>
+    <soloMmr>7845</soloMmr>
+    <carry>100</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.32</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.25</assist_min>
+    <GPM>661</GPM>
+    <XPM>719</XPM>
+    <signatures>
+      <string>Centaur Warrunner</string>
+      <string>Anti Mage</string>
+      <string>Timbersaw</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>1437</nickname>
+    <Fio>Theeban Siva</Fio>
+    <country>Канада </country>
+    <rarity>0</rarity>
+    <coast>483</coast>
+    <soloMmr>7080</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.05</kills_min>
+    <death_min>0.17</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>250</GPM>
+    <XPM>233</XPM>
+    <signatures>
+      <string>Dazzle</string>
+      <string>Shadow Demon</string>
+      <string>Rubick</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Korok</nickname>
+    <Fio>Steven Ashworth</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>952</coast>
+    <soloMmr>6352</soloMmr>
+    <carry>100</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.16</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.16</assist_min>
+    <GPM>452</GPM>
+    <XPM>500</XPM>
+    <signatures>
+      <string>Queen of Pain</string>
+      <string>Ursa</string>
+      <string>Morphling</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>DeMoN</nickname>
+    <Fio>Jimmy Ho</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>529</coast>
+    <soloMmr>6606</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.06</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.27</assist_min>
+    <GPM>282</GPM>
+    <XPM>247</XPM>
+    <signatures>
+      <string>Batrider</string>
+      <string>Sand King</string>
+      <string>Clockwerk</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>TC</nickname>
+    <Fio>Tyler Cook</Fio>
+    <country>Канада </country>
+    <rarity>1</rarity>
+    <coast>1340</coast>
+    <soloMmr>7699</soloMmr>
+    <carry>80</carry>
+    <mid>0</mid>
+    <offlane>20</offlane>
+    <support>0</support>
+    <kills_min>0.13</kills_min>
+    <death_min>0.09</death_min>
+    <assist_min>0.25</assist_min>
+    <GPM>531</GPM>
+    <XPM>509</XPM>
+    <signatures>
+      <string>Luna</string>
+      <string>Lifestealer</string>
+      <string>Razor</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Fly</nickname>
+    <Fio>Tal Aizik</Fio>
+    <country>Израиль </country>
+    <rarity>0</rarity>
+    <coast>551</coast>
+    <soloMmr>7900</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.07</kills_min>
+    <death_min>0.1</death_min>
+    <assist_min>0.38</assist_min>
+    <GPM>289</GPM>
+    <XPM>262</XPM>
+    <signatures>
+      <string>Dazzle</string>
+      <string>Rubick</string>
+      <string>Keeper of the Light</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>N0tail</nickname>
+    <Fio>Johan Sundstein</Fio>
+    <country>Дания </country>
+    <rarity>1</rarity>
+    <coast>1352</coast>
+    <soloMmr>7533</soloMmr>
+    <carry>86</carry>
+    <mid>13</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.18</kills_min>
+    <death_min>0.1</death_min>
+    <assist_min>0.34</assist_min>
+    <GPM>565</GPM>
+    <XPM>487</XPM>
+    <signatures>
+      <string>Juggernaut</string>
+      <string>Naga Siren</string>
+      <string>Meepo</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Era</nickname>
+    <Fio>Adrian Kryeziu</Fio>
+    <country>Швеция </country>
+    <rarity>0</rarity>
+    <coast>921</coast>
+    <soloMmr>7799</soloMmr>
+    <carry>80</carry>
+    <mid>13</mid>
+    <offlane>6</offlane>
+    <support>0</support>
+    <kills_min>0.14</kills_min>
+    <death_min>0.1</death_min>
+    <assist_min>0.22</assist_min>
+    <GPM>478</GPM>
+    <XPM>443</XPM>
+    <signatures>
+      <string>Lifestealer</string>
+      <string>Tiny</string>
+      <string>Luna</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Trixi</nickname>
+    <Fio>Kalle Saarinen</Fio>
+    <country>Финляндия </country>
+    <rarity>0</rarity>
+    <coast>789</coast>
+    <soloMmr>7805</soloMmr>
+    <carry>6</carry>
+    <mid>0</mid>
+    <offlane>93</offlane>
+    <support>0</support>
+    <kills_min>0.11</kills_min>
+    <death_min>0.14</death_min>
+    <assist_min>0.37</assist_min>
+    <GPM>387</GPM>
+    <XPM>402</XPM>
+    <signatures>
+      <string>Dark Seer</string>
+      <string>Nature&amp;#39;s Prophet</string>
+      <string>Bounty Hunter</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Puppey</nickname>
+    <Fio>Clement Ivanov</Fio>
+    <country>Эстония </country>
+    <rarity>0</rarity>
+    <coast>681</coast>
+    <soloMmr>8010</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.45</assist_min>
+    <GPM>342</GPM>
+    <XPM>339</XPM>
+    <signatures>
+      <string>Chen</string>
+      <string>Enchantress</string>
+      <string>Enigma</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>XBOCT</nickname>
+    <Fio>Alexander Dashkevich</Fio>
+    <country>Украина </country>
+    <rarity>1</rarity>
+    <coast>1415</coast>
+    <soloMmr>7110</soloMmr>
+    <carry>33</carry>
+    <mid>0</mid>
+    <offlane>66</offlane>
+    <support>0</support>
+    <kills_min>0.19</kills_min>
+    <death_min>0.09</death_min>
+    <assist_min>0.3</assist_min>
+    <GPM>563</GPM>
+    <XPM>552</XPM>
+    <signatures>
+      <string>Lifestealer</string>
+      <string>Gyrocopter</string>
+      <string>Anti Mage</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Dendi</nickname>
+    <Fio>Danil Ishutin</Fio>
+    <country>Украина </country>
+    <rarity>0</rarity>
+    <coast>916</coast>
+    <soloMmr>7638</soloMmr>
+    <carry>0</carry>
+    <mid>100</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.16</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>452</GPM>
+    <XPM>464</XPM>
+    <signatures>
+      <string>Pudge</string>
+      <string>Magnus</string>
+      <string>Invoker</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Funn1k</nickname>
+    <Fio>Gleb Lipatnikov</Fio>
+    <country>Украина </country>
+    <rarity>0</rarity>
+    <coast>671</coast>
+    <soloMmr>7756</soloMmr>
+    <carry>13</carry>
+    <mid>6</mid>
+    <offlane>80</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.17</death_min>
+    <assist_min>0.3</assist_min>
+    <GPM>322</GPM>
+    <XPM>349</XPM>
+    <signatures>
+      <string>Batrider</string>
+      <string>Dark Seer</string>
+      <string>Clinkz</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>KuroKy</nickname>
+    <Fio>Kuro Salehi Takhasomi</Fio>
+    <country>Германия </country>
+    <rarity>0</rarity>
+    <coast>491</coast>
+    <soloMmr>7783</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.07</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.31</assist_min>
+    <GPM>249</GPM>
+    <XPM>242</XPM>
+    <signatures>
+      <string>Rubick</string>
+      <string>Visage</string>
+      <string>Io</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Illidan</nickname>
+    <Fio>Ilya Pivcaev</Fio>
+    <country>Россия </country>
+    <rarity>1</rarity>
+    <coast>1448</coast>
+    <soloMmr>7646</soloMmr>
+    <carry>80</carry>
+    <mid>13</mid>
+    <offlane>6</offlane>
+    <support>0</support>
+    <kills_min>0.18</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.2</assist_min>
+    <GPM>577</GPM>
+    <XPM>571</XPM>
+    <signatures>
+      <string>Slark</string>
+      <string>Medusa</string>
+      <string>Silencer</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>EternaLEnVy</nickname>
+    <Fio>Jacky Mao</Fio>
+    <country>Канада </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>8219</soloMmr>
+    <carry>40</carry>
+    <mid>60</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.14</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+    <signatures>
+      <string>Luna</string>
+      <string>Mirana</string>
+      <string>Terrorblade</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>SingSing</nickname>
+    <Fio>WehSing Yuen</Fio>
+    <country>Голландия </country>
+    <rarity>0</rarity>
+    <coast>875</coast>
+    <soloMmr>7756</soloMmr>
+    <carry>73</carry>
+    <mid>0</mid>
+    <offlane>26</offlane>
+    <support>0</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>457</GPM>
+    <XPM>418</XPM>
+    <signatures>
+      <string>Mirana</string>
+      <string>Kunkka</string>
+      <string>Tiny</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Aui_2000</nickname>
+    <Fio>Kurtis Daniel Ling</Fio>
+    <country>Канада </country>
+    <rarity>1</rarity>
+    <coast>1269</coast>
+    <soloMmr>8025</soloMmr>
+    <carry>46</carry>
+    <mid>40</mid>
+    <offlane>13</offlane>
+    <support>0</support>
+    <kills_min>0.09</kills_min>
+    <death_min>0.09</death_min>
+    <assist_min>0.19</assist_min>
+    <GPM>512</GPM>
+    <XPM>457</XPM>
+    <signatures>
+      <string>Morphling</string>
+      <string>Tiny</string>
+      <string>Lone Druid</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Bimbo</nickname>
+    <Fio>Ryan Jay Qui</Fio>
+    <country>Филиппины </country>
+    <rarity>2</rarity>
+    <coast>1793</coast>
+    <soloMmr>7225</soloMmr>
+    <carry>86</carry>
+    <mid>13</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.27</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.29</assist_min>
+    <GPM>604</GPM>
+    <XPM>589</XPM>
+    <signatures>
+      <string>Invoker</string>
+      <string>Queen of Pain</string>
+      <string>Storm Spirit</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Owa</nickname>
+    <Fio>Joshua Dela Serna</Fio>
+    <country>Филиппины </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>6811</soloMmr>
+    <carry>6</carry>
+    <mid>0</mid>
+    <offlane>6</offlane>
+    <support>86</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.34</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+    <signatures>
+      <string>Nyx Assassin</string>
+      <string>Sand King</string>
+      <string>Leaderboards</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>JessieVash</nickname>
+    <Fio>Jessie Cristy Cuyco</Fio>
+    <country>Филиппины </country>
+    <rarity>0</rarity>
+    <coast>552</coast>
+    <soloMmr>6712</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.31</assist_min>
+    <GPM>286</GPM>
+    <XPM>266</XPM>
+    <signatures>
+      <string>Dark Seer</string>
+      <string>Clockwerk</string>
+      <string>Night Stalker</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>NutZ</nickname>
+    <Fio>Wong Jeng Yih</Fio>
+    <country>Сингапур </country>
+    <rarity>0</rarity>
+    <coast>461</coast>
+    <soloMmr>6641</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.07</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>233</GPM>
+    <XPM>228</XPM>
+    <signatures>
+      <string>Witch Doctor</string>
+      <string>Skywrath Mage</string>
+      <string>Vengeful Spirit</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Fear</nickname>
+    <Fio>Clinton Loomis</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>7841</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+    <signatures>
+      <string>Sven</string>
+      <string>Lone Druid</string>
+      <string>Anti Mage</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>UNiVeRsE</nickname>
+    <Fio>Saahil Arora</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>682</coast>
+    <soloMmr>8149</soloMmr>
+    <carry>6</carry>
+    <mid>0</mid>
+    <offlane>93</offlane>
+    <support>0</support>
+    <kills_min>0.11</kills_min>
+    <death_min>0.08</death_min>
+    <assist_min>0.25</assist_min>
+    <GPM>336</GPM>
+    <XPM>346</XPM>
+    <signatures>
+      <string>Faceless Void</string>
+      <string>Clockwerk</string>
+      <string>Dark Seer</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>MSS</nickname>
+    <Fio>Arif Anwar</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>671</coast>
+    <soloMmr>8149</soloMmr>
+    <carry>13</carry>
+    <mid>0</mid>
+    <offlane>86</offlane>
+    <support>0</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.21</assist_min>
+    <GPM>338</GPM>
+    <XPM>333</XPM>
+    <signatures>
+      <string>Clockwerk</string>
+      <string>Dark Seer</string>
+      <string>Tusk</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>YamateH</nickname>
+    <Fio>Ng Wei Poong</Fio>
+    <country>Малайзия </country>
+    <rarity>0</rarity>
+    <coast>912</coast>
+    <soloMmr>7684</soloMmr>
+    <carry>0</carry>
+    <mid>60</mid>
+    <offlane>20</offlane>
+    <support>20</support>
+    <kills_min>0.17</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.25</assist_min>
+    <GPM>451</GPM>
+    <XPM>461</XPM>
+    <signatures>
+      <string>Queen of Pain</string>
+      <string>Razor</string>
+      <string>Shadow Fiend</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>WinteR</nickname>
+    <Fio>Chan Litt Binn</Fio>
+    <country>Малайзия </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>6607</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+    <signatures>
+      <string>Rubick</string>
+      <string>Nature&amp;#39;s Prophet</string>
+      <string>Batrider</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Sedoy</nickname>
+    <Fio>Vadim Musorin</Fio>
+    <country>Россия </country>
+    <rarity>1</rarity>
+    <coast>1419</coast>
+    <soloMmr>8011</soloMmr>
+    <carry>100</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.24</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.29</assist_min>
+    <GPM>582</GPM>
+    <XPM>537</XPM>
+    <signatures>
+      <string>Juggernaut</string>
+      <string>Weaver</string>
+      <string>Sven</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Scandal</nickname>
+    <Fio>Roman Sadotenkov</Fio>
+    <country>Россия </country>
+    <rarity>0</rarity>
+    <coast>880</coast>
+    <soloMmr>8098</soloMmr>
+    <carry>6</carry>
+    <mid>86</mid>
+    <offlane>6</offlane>
+    <support>0</support>
+    <kills_min>0.13</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.2</assist_min>
+    <GPM>440</GPM>
+    <XPM>440</XPM>
+    <signatures>
+      <string>Templar Assassin</string>
+      <string>Puck</string>
+      <string>Invoker</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Silent</nickname>
+    <Fio>Airat Gaziev</Fio>
+    <country>Россия </country>
+    <rarity>2</rarity>
+    <coast>1802</coast>
+    <soloMmr>6564</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.22</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.32</assist_min>
+    <GPM>634</GPM>
+    <XPM>568</XPM>
+    <signatures>
+      <string>Gyrocopter</string>
+      <string>Mirana</string>
+      <string>Luna</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>VANSKOR</nickname>
+    <Fio>Ivan Skorokhod</Fio>
+    <country>Россия </country>
+    <rarity>0</rarity>
+    <coast>602</coast>
+    <soloMmr>7783</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>294</GPM>
+    <XPM>308</XPM>
+    <signatures>
+      <string>Rubick</string>
+      <string>Io</string>
+      <string>Doom</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>ALWAYSWANNAFLY</nickname>
+    <Fio>Bondarenko Andrey</Fio>
+    <country>Украина </country>
+    <rarity>0</rarity>
+    <coast>548</coast>
+    <soloMmr>7514</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.22</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>279</GPM>
+    <XPM>269</XPM>
+    <signatures>
+      <string>Ancient Apparition</string>
+      <string>Bane</string>
+      <string>Dazzle</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Resolut1on</nickname>
+    <Fio>Roman Fominok</Fio>
+    <country>Украина </country>
+    <rarity>2</rarity>
+    <coast>1746</coast>
+    <soloMmr>8352</soloMmr>
+    <carry>93</carry>
+    <mid>6</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.16</kills_min>
+    <death_min>0.05</death_min>
+    <assist_min>0.21</assist_min>
+    <GPM>624</GPM>
+    <XPM>522</XPM>
+    <signatures>
+      <string>Luna</string>
+      <string>Faceless Void</string>
+      <string>Slark</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Lubby</nickname>
+    <Fio>Chan Jun Jie</Fio>
+    <country>Сингапур </country>
+    <rarity>0</rarity>
+    <coast>512</coast>
+    <soloMmr>6779</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.06</kills_min>
+    <death_min>0.18</death_min>
+    <assist_min>0.35</assist_min>
+    <GPM>246</GPM>
+    <XPM>266</XPM>
+    <signatures>
+      <string>Leshrac</string>
+      <string>Leaderboards</string>
+      <string>First Departure</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Wagamama</nickname>
+    <Fio>Niklas</Fio>
+    <country>Швеция </country>
+    <rarity>0</rarity>
+    <coast>1000</coast>
+    <soloMmr>7372</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+    <signatures>
+      <string>Templar Assassin</string>
+      <string>Meepo</string>
+      <string>Queen of Pain</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>JerAx</nickname>
+    <Fio>Jesse Vainikka</Fio>
+    <country>Финляндия </country>
+    <rarity>0</rarity>
+    <coast>740</coast>
+    <soloMmr>7509</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.41</assist_min>
+    <GPM>337</GPM>
+    <XPM>403</XPM>
+    <signatures>
+      <string>Earth Spirit</string>
+      <string>Rubick</string>
+      <string>Winter Wyvern</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>ComeWithMe</nickname>
+    <Fio>Alexandru Craciunescu</Fio>
+    <country>Румыния </country>
+    <rarity>0</rarity>
+    <coast>701</coast>
+    <soloMmr>7465</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.18</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>337</GPM>
+    <XPM>364</XPM>
+    <signatures>
+      <string>Visage</string>
+      <string>Vengeful Spirit</string>
+      <string>Rubick</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Sneyking</nickname>
+    <Fio>Jingjun Wu</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>896</coast>
+    <soloMmr>7904</soloMmr>
+    <carry>13</carry>
+    <mid>0</mid>
+    <offlane>86</offlane>
+    <support>0</support>
+    <kills_min>0.17</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.3</assist_min>
+    <GPM>448</GPM>
+    <XPM>448</XPM>
+    <signatures>
+      <string>Templar Assassin</string>
+      <string>Nature&amp;#39;s Prophet</string>
+      <string>Storm Spirit</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Zai</nickname>
+    <Fio>Ludwig Wåhlberg</Fio>
+    <country>Швеция </country>
+    <rarity>0</rarity>
+    <coast>541</coast>
+    <soloMmr>8208</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.05</kills_min>
+    <death_min>0.18</death_min>
+    <assist_min>0.3</assist_min>
+    <GPM>265</GPM>
+    <XPM>276</XPM>
+    <signatures>
+      <string>Visage</string>
+      <string>Enigma</string>
+      <string>Io</string>
+    </signatures>
+  </Player>
+</ArrayOfPlayer>

@@ -98,6 +98,7 @@ public class Global2 : MonoBehaviour {
         {
             formatter.Serialize(fs, rp);
             print("Объект сериализован");
+            print("test github");
    
         }
     }
