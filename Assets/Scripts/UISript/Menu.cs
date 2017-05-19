@@ -50,9 +50,7 @@ public class Menu : MonoBehaviour {
     }
     Role_player nr = new Role_player();
     public void SetRole()
-    {
-
-       
+    {  
         nr.role = TetstClassic.Role[TetstClassic.count];
         nr.name = TetstClassic.last_nickname;
         TetstClassic.role_playes.Add(nr);
@@ -60,7 +58,11 @@ public class Menu : MonoBehaviour {
         TetstClassic.count++;
         SceneManager.LoadScene("setRole");
 
-       
+    }
+    public static void OffUpPanel()
+    {
+        GameObject up_panel = GameObject.FindGameObjectWithTag("up_panel");
+        up_panel.SetActive(false);
     }
     public void OpenSetRole()
     {

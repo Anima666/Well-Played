@@ -88,6 +88,7 @@ public class Global2 : MonoBehaviour {
     {
         TextAsset _xml = Resources.Load<TextAsset>(path);
         StringReader reader = new StringReader(_xml.ToString());
+        
         People = formatter.Deserialize(reader) as List<Player>;
         reader.Close();
     }
@@ -98,8 +99,6 @@ public class Global2 : MonoBehaviour {
         {
             formatter.Serialize(fs, rp);
             print("Объект сериализован");
-            print("test github");
-            print("lolCHEET");
    
         }
     }
