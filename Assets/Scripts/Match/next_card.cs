@@ -17,19 +17,34 @@ public class next_card : MonoBehaviour {
         TetstClassic.curr_cards = new int[5];
         gl.Deserilize("Currenteam");
         gl.SetInfOneCard(card, gl.People[0]);
+
+        img1 = GetComponent<SetRandomHero>().img1;
+        img2 = GetComponent<SetRandomHero>().img2;
     }
 
     int count = 1;
+    GameObject[] img1;
+    GameObject[] img2;
+    public GameObject btn_next;
+    int last_btn = 0;
 	public void Next ()
     {
+        btn_next.SetActive(false);
         if (count==5)
         {
             CheckhWin();
             return;
         }
-        btn[TetstClassic.last_btn].GetComponent<Image>().color = Color.grey;
-        btn[TetstClassic.last_btn].GetComponent<Button>().enabled = false;
+        last_btn = TetstClassic.last_btn;
+        btn[last_btn].GetComponent<Image>().color = Color.grey;
+        btn[last_btn].GetComponent<Button>().enabled = false;
         gl.SetInfOneCard(card,gl.People[count]);
+
+        img1[last_btn].GetComponent<Image>().color = Color.grey;
+        img1[last_btn].GetComponent<moveheroes>().enabled = false;
+
+        // img2[last_btn].GetComponent<Image>().color = Color.grey;
+
         //gl.SetInf(cardsMainTeam, gl.People);
         count++;
     }

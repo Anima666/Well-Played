@@ -11,6 +11,7 @@ TagManager:
   - rarity
   - signature
   - up_panel
+  - next_card
   layers:
   - Default
   - TransparentFX

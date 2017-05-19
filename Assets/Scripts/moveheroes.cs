@@ -15,10 +15,12 @@ public class moveheroes : MonoBehaviour {
     bool check_press = false;
 
     private Vector3 mousePosition;
-
+    GameObject btn;
     void Start ()
     {
-       start_pos= new Vector3( transform.position.x, transform.position.y,transform.position.z);
+        GameObject next_btn = GameObject.FindGameObjectWithTag("next_card");
+        start_pos = new Vector3( transform.position.x, transform.position.y,transform.position.z);
+        btn = next_btn.GetComponent<choice_hero>().btn_next;
 
     }
     Collider2D col;
@@ -30,14 +32,16 @@ public class moveheroes : MonoBehaviour {
             col.GetComponent<SpriteRenderer>().sprite = GetComponent<Image>().sprite;
             col.transform.localScale = transform.localScale;
             may_pos = false;
-          //  GetComponent<SpriteRenderer>().color = Color.gray;
             transform.position = col.transform.position;
             check_press = false;
-        }
-        
-            //other.gameObject = gameObject;
+            btn.SetActive(true);
+
         }
 
+
+        }
+   
+    
     void OnMouseDown()
     {
         if (check_press == false)
@@ -47,6 +51,7 @@ public class moveheroes : MonoBehaviour {
             {
                 col.GetComponent<SpriteRenderer>().sprite = null;
                 may_pos = true;
+                btn.SetActive(false);
             }
         }
         else
@@ -56,7 +61,6 @@ public class moveheroes : MonoBehaviour {
     }
     void Update()
     {
-        // transform.position = new Vector3(transform.position.x + 1, transform.position.y, transform.position.z);
         if (may_pos == true)
         {
             if (check_press == true)
@@ -69,9 +73,7 @@ public class moveheroes : MonoBehaviour {
                 transform.position = start_pos;
             }
         }
-            
-        
-        }
+     }
         
     }
 

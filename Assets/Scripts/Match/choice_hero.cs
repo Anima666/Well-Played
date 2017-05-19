@@ -11,12 +11,16 @@ public class choice_hero : MonoBehaviour {
     int count = 0;
 	void Start ()
     {
+        img = GetComponent<SetRandomHero>().img1;
         //hero=global.GetComponent<noname>().hero;
         TetstClassic.last_btn = 0;
     }
+    public GameObject btn_next;
+    GameObject[] img;
 
     public void choice(int n) //оптимизировать
     {
+       // btn_next.SetActive(true);
         for (int i = 0; i < hero.Length; i++)
         {
             if (hero[i].GetComponent<Button>().enabled == true)
@@ -28,8 +32,9 @@ public class choice_hero : MonoBehaviour {
         }
        hero[n].GetComponent<Image>().color = Color.green;
        hero[n].GetComponentInChildren<Text>().color = Color.white;
-        TetstClassic.last_btn = n;
-        count++;
+        img[n].GetComponent<moveheroes>().enabled = true;
+       TetstClassic.last_btn = n;
+       
 
     }
 }
