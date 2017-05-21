@@ -22,6 +22,7 @@ public class SetRandomHero : MonoBehaviour {
             btn_hero[i].GetComponentInChildren<Text>().text = name_hero;
             sp= Resources.Load<Sprite>("heroes/" + name_hero);
             img1[i].GetComponent<Image>().sprite = sp;
+            img1[i].name = name_hero;
             img2[i].GetComponent<Image>().sprite = sp;
         }
 

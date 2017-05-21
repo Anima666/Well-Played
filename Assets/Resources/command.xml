@@ -4,113 +4,113 @@
     <name>natus_vincere</name>
     <pl>
       <Player>
-        <nickname>KuroKy</nickname>
-        <Fio>Kuro Salehi Takhasomi</Fio>
-        <country>Германия </country>
+        <nickname>Fenrir</nickname>
+        <Fio>Lu Chao</Fio>
+        <country>Китай </country>
         <rarity>0</rarity>
-        <coast>491</coast>
-        <soloMmr>7783</soloMmr>
+        <coast>685</coast>
+        <soloMmr>7334</soloMmr>
         <carry>0</carry>
         <mid>0</mid>
         <offlane>0</offlane>
         <support>100</support>
-        <kills_min>0.07</kills_min>
-        <death_min>0.16</death_min>
-        <assist_min>0.31</assist_min>
-        <GPM>249</GPM>
-        <XPM>242</XPM>
+        <kills_min>0.14</kills_min>
+        <death_min>0.15</death_min>
+        <assist_min>0.43</assist_min>
+        <GPM>324</GPM>
+        <XPM>361</XPM>
         <signatures>
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
+          <string>Shadow Demon</string>
+          <string>Skywrath Mage</string>
+          <string>Visage</string>
         </signatures>
       </Player>
       <Player>
-        <nickname>God</nickname>
-        <Fio>Sergey Bragin</Fio>
-        <country>Россия </country>
+        <nickname>Sylar</nickname>
+        <Fio>Liu Jiajun</Fio>
+        <country>Китай </country>
         <rarity>1</rarity>
-        <coast>1432</coast>
-        <soloMmr>7238</soloMmr>
-        <carry>6</carry>
-        <mid>83</mid>
-        <offlane>0</offlane>
-        <support>0</support>
-        <kills_min>0.16</kills_min>
-        <death_min>0.12</death_min>
-        <assist_min>0.26</assist_min>
-        <GPM>575</GPM>
-        <XPM>557</XPM>
-        <signatures>
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-        </signatures>
-      </Player>
-      <Player>
-        <nickname>Miracle-</nickname>
-        <Fio>Amer al-Barqawi</Fio>
-        <country>Иордания </country>
-        <rarity>2</rarity>
-        <coast>1414</coast>
-        <soloMmr>9106</soloMmr>
-        <carry>0</carry>
-        <mid>86</mid>
+        <coast>1323</coast>
+        <soloMmr>7262</soloMmr>
+        <carry>60</carry>
+        <mid>33</mid>
         <offlane>6</offlane>
-        <support>6</support>
-        <kills_min>0.16</kills_min>
-        <death_min>0.09</death_min>
-        <assist_min>0.22</assist_min>
-        <GPM>590</GPM>
-        <XPM>524</XPM>
-        <signatures>
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-        </signatures>
-      </Player>
-      <Player>
-        <nickname>Miracle-</nickname>
-        <Fio>Amer al-Barqawi</Fio>
-        <country>Иордания </country>
-        <rarity>1</rarity>
-        <coast>1414</coast>
-        <soloMmr>9106</soloMmr>
-        <carry>0</carry>
-        <mid>86</mid>
-        <offlane>6</offlane>
-        <support>6</support>
-        <kills_min>0.16</kills_min>
-        <death_min>0.09</death_min>
-        <assist_min>0.22</assist_min>
-        <GPM>590</GPM>
-        <XPM>524</XPM>
-        <signatures>
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-        </signatures>
-      </Player>
-      <Player>
-        <nickname>Sumail</nickname>
-        <Fio>Syed Sumail Hassan</Fio>
-        <country>Пакистан </country>
-        <rarity>2</rarity>
-        <coast>1851</coast>
-        <soloMmr>7265</soloMmr>
-        <carry>0</carry>
-        <mid>56</mid>
-        <offlane>0</offlane>
         <support>0</support>
-        <kills_min>0.2</kills_min>
-        <death_min>0.07</death_min>
-        <assist_min>0.21</assist_min>
-        <GPM>665</GPM>
-        <XPM>586</XPM>
+        <kills_min>0.17</kills_min>
+        <death_min>0.17</death_min>
+        <assist_min>0.23</assist_min>
+        <GPM>525</GPM>
+        <XPM>498</XPM>
         <signatures>
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
+          <string>Lycan</string>
+          <string>Morphling</string>
+          <string>Anti Mage</string>
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>Yao</nickname>
+        <Fio>Zheng Zheng Yao</Fio>
+        <country>Китай </country>
+        <rarity>0</rarity>
+        <coast>767</coast>
+        <soloMmr>7033</soloMmr>
+        <carry>0</carry>
+        <mid>0</mid>
+        <offlane>0</offlane>
+        <support>100</support>
+        <kills_min>0.08</kills_min>
+        <death_min>0.15</death_min>
+        <assist_min>0.43</assist_min>
+        <GPM>362</GPM>
+        <XPM>405</XPM>
+        <signatures>
+          <string>Dark Seer</string>
+          <string>Invoker</string>
+          <string>Clockwerk</string>
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>Icy</nickname>
+        <Fio>Wang Peng</Fio>
+        <country>Китай </country>
+        <rarity>0</rarity>
+        <coast>584</coast>
+        <soloMmr>6769</soloMmr>
+        <carry>0</carry>
+        <mid>0</mid>
+        <offlane>0</offlane>
+        <support>100</support>
+        <kills_min>0.08</kills_min>
+        <death_min>0.13</death_min>
+        <assist_min>0.35</assist_min>
+        <GPM>272</GPM>
+        <XPM>312</XPM>
+        <signatures>
+          <string>Earthshaker</string>
+          <string>Rubick</string>
+          <string>Dazzle</string>
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>JoHnNy</nickname>
+        <Fio>Lee Siong Tait</Fio>
+        <country>Малайзия </country>
+        <rarity>0</rarity>
+        <coast>601</coast>
+        <soloMmr>6948</soloMmr>
+        <carry>0</carry>
+        <mid>0</mid>
+        <offlane>0</offlane>
+        <support>100</support>
+        <kills_min>0.1</kills_min>
+        <death_min>0.17</death_min>
+        <assist_min>0.35</assist_min>
+        <GPM>297</GPM>
+        <XPM>304</XPM>
+        <signatures>
+          <string>Chen</string>
+          <string>Ancient Apparition</string>
+          <string>Enchantress</string>
         </signatures>
       </Player>
     </pl>
@@ -119,113 +119,113 @@
     <name>natus_vincere</name>
     <pl>
       <Player>
-        <nickname>KuroKy</nickname>
-        <Fio>Kuro Salehi Takhasomi</Fio>
-        <country>Германия </country>
+        <nickname>Fenrir</nickname>
+        <Fio>Lu Chao</Fio>
+        <country>Китай </country>
         <rarity>0</rarity>
-        <coast>491</coast>
-        <soloMmr>7783</soloMmr>
+        <coast>685</coast>
+        <soloMmr>7334</soloMmr>
         <carry>0</carry>
         <mid>0</mid>
         <offlane>0</offlane>
         <support>100</support>
-        <kills_min>0.07</kills_min>
-        <death_min>0.16</death_min>
-        <assist_min>0.31</assist_min>
-        <GPM>249</GPM>
-        <XPM>242</XPM>
+        <kills_min>0.14</kills_min>
+        <death_min>0.15</death_min>
+        <assist_min>0.43</assist_min>
+        <GPM>324</GPM>
+        <XPM>361</XPM>
         <signatures>
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
+          <string>Shadow Demon</string>
+          <string>Skywrath Mage</string>
+          <string>Visage</string>
         </signatures>
       </Player>
       <Player>
-        <nickname>God</nickname>
-        <Fio>Sergey Bragin</Fio>
-        <country>Россия </country>
+        <nickname>Sylar</nickname>
+        <Fio>Liu Jiajun</Fio>
+        <country>Китай </country>
         <rarity>1</rarity>
-        <coast>1432</coast>
-        <soloMmr>7238</soloMmr>
-        <carry>6</carry>
-        <mid>93</mid>
-        <offlane>0</offlane>
-        <support>0</support>
-        <kills_min>0.16</kills_min>
-        <death_min>0.12</death_min>
-        <assist_min>0.26</assist_min>
-        <GPM>575</GPM>
-        <XPM>557</XPM>
-        <signatures>
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-        </signatures>
-      </Player>
-      <Player>
-        <nickname>Miracle-</nickname>
-        <Fio>Amer al-Barqawi</Fio>
-        <country>Иордания </country>
-        <rarity>2</rarity>
-        <coast>1414</coast>
-        <soloMmr>9106</soloMmr>
-        <carry>0</carry>
-        <mid>86</mid>
+        <coast>1323</coast>
+        <soloMmr>7262</soloMmr>
+        <carry>60</carry>
+        <mid>33</mid>
         <offlane>6</offlane>
-        <support>6</support>
-        <kills_min>0.16</kills_min>
-        <death_min>0.09</death_min>
-        <assist_min>0.22</assist_min>
-        <GPM>590</GPM>
-        <XPM>524</XPM>
-        <signatures>
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-        </signatures>
-      </Player>
-      <Player>
-        <nickname>Miracle-</nickname>
-        <Fio>Amer al-Barqawi</Fio>
-        <country>Иордания </country>
-        <rarity>1</rarity>
-        <coast>1414</coast>
-        <soloMmr>9106</soloMmr>
-        <carry>0</carry>
-        <mid>86</mid>
-        <offlane>6</offlane>
-        <support>6</support>
-        <kills_min>0.16</kills_min>
-        <death_min>0.09</death_min>
-        <assist_min>0.22</assist_min>
-        <GPM>590</GPM>
-        <XPM>524</XPM>
-        <signatures>
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-        </signatures>
-      </Player>
-      <Player>
-        <nickname>Sumail</nickname>
-        <Fio>Syed Sumail Hassan</Fio>
-        <country>Пакистан </country>
-        <rarity>2</rarity>
-        <coast>1851</coast>
-        <soloMmr>7265</soloMmr>
-        <carry>0</carry>
-        <mid>100</mid>
-        <offlane>0</offlane>
         <support>0</support>
-        <kills_min>0.2</kills_min>
-        <death_min>0.07</death_min>
-        <assist_min>0.21</assist_min>
-        <GPM>665</GPM>
-        <XPM>586</XPM>
+        <kills_min>0.17</kills_min>
+        <death_min>0.17</death_min>
+        <assist_min>0.23</assist_min>
+        <GPM>525</GPM>
+        <XPM>498</XPM>
         <signatures>
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
-          <string xsi:nil="true" />
+          <string>Lycan</string>
+          <string>Morphling</string>
+          <string>Anti Mage</string>
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>Yao</nickname>
+        <Fio>Zheng Zheng Yao</Fio>
+        <country>Китай </country>
+        <rarity>0</rarity>
+        <coast>767</coast>
+        <soloMmr>7033</soloMmr>
+        <carry>0</carry>
+        <mid>0</mid>
+        <offlane>0</offlane>
+        <support>100</support>
+        <kills_min>0.08</kills_min>
+        <death_min>0.15</death_min>
+        <assist_min>0.43</assist_min>
+        <GPM>362</GPM>
+        <XPM>405</XPM>
+        <signatures>
+          <string>Dark Seer</string>
+          <string>Invoker</string>
+          <string>Clockwerk</string>
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>Icy</nickname>
+        <Fio>Wang Peng</Fio>
+        <country>Китай </country>
+        <rarity>0</rarity>
+        <coast>584</coast>
+        <soloMmr>6769</soloMmr>
+        <carry>0</carry>
+        <mid>0</mid>
+        <offlane>0</offlane>
+        <support>100</support>
+        <kills_min>0.08</kills_min>
+        <death_min>0.13</death_min>
+        <assist_min>0.35</assist_min>
+        <GPM>272</GPM>
+        <XPM>312</XPM>
+        <signatures>
+          <string>Earthshaker</string>
+          <string>Rubick</string>
+          <string>Dazzle</string>
+        </signatures>
+      </Player>
+      <Player>
+        <nickname>JoHnNy</nickname>
+        <Fio>Lee Siong Tait</Fio>
+        <country>Малайзия </country>
+        <rarity>0</rarity>
+        <coast>601</coast>
+        <soloMmr>6948</soloMmr>
+        <carry>0</carry>
+        <mid>0</mid>
+        <offlane>0</offlane>
+        <support>100</support>
+        <kills_min>0.1</kills_min>
+        <death_min>0.17</death_min>
+        <assist_min>0.35</assist_min>
+        <GPM>297</GPM>
+        <XPM>304</XPM>
+        <signatures>
+          <string>Chen</string>
+          <string>Ancient Apparition</string>
+          <string>Enchantress</string>
         </signatures>
       </Player>
     </pl>

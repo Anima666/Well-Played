@@ -29,6 +29,13 @@ public class moveheroes : MonoBehaviour {
             col = other;
             if (may_pos == true)
             {
+                GameObject card = GameObject.FindGameObjectWithTag("Player"); //придумай що получще
+                CheckSet ch = col.GetComponent<CheckSet>();
+
+                ch.nickame=card.GetComponent<MainPlayer>().player.nickname;
+                ch.hero = this.name;
+                ch.role = col.name;
+
                 col.GetComponent<SpriteRenderer>().sprite = GetComponent<Image>().sprite;
                 //  col.transform.localScale = transform.localScale;
                 may_pos = false;
@@ -51,6 +58,10 @@ public class moveheroes : MonoBehaviour {
                 may_pos = true;
 
                 btn.SetActive(false);
+                CheckSet ch = col.GetComponent<CheckSet>();
+
+                ch.nickame = "";
+                ch.hero = "";
                 // set = false;
             }
         }

@@ -1,88 +1,113 @@
 ﻿<?xml version="1.0"?>
 <ArrayOfPlayer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Player>
-    <nickname>KuroKy</nickname>
-    <Fio>Kuro Salehi Takhasomi</Fio>
-    <country>Германия </country>
+    <nickname>Wagamama</nickname>
+    <Fio>Niklas</Fio>
+    <country>Швеция </country>
     <rarity>0</rarity>
-    <coast>491</coast>
-    <soloMmr>7783</soloMmr>
-    <carry>0</carry>
+    <coast>1000</coast>
+    <soloMmr>7372</soloMmr>
+    <carry>100</carry>
     <mid>0</mid>
     <offlane>0</offlane>
-    <support>100</support>
-    <kills_min>0.07</kills_min>
-    <death_min>0.16</death_min>
-    <assist_min>0.31</assist_min>
-    <GPM>249</GPM>
-    <XPM>242</XPM>
-  </Player>
-  <Player>
-    <nickname>God</nickname>
-    <Fio>Sergey Bragin</Fio>
-    <country>Россия </country>
-    <rarity>1</rarity>
-    <coast>1432</coast>
-    <soloMmr>7238</soloMmr>
-    <carry>6</carry>
-    <mid>93</mid>
-    <offlane>0</offlane>
     <support>0</support>
-    <kills_min>0.16</kills_min>
-    <death_min>0.12</death_min>
-    <assist_min>0.26</assist_min>
-    <GPM>575</GPM>
-    <XPM>557</XPM>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>500</GPM>
+    <XPM>500</XPM>
+    <signatures>
+      <string>Templar Assassin</string>
+      <string>Meepo</string>
+      <string>Queen of Pain</string>
+    </signatures>
   </Player>
   <Player>
-    <nickname>Miracle-</nickname>
-    <Fio>Amer al-Barqawi</Fio>
-    <country>Иордания </country>
-    <rarity>2</rarity>
-    <coast>1414</coast>
-    <soloMmr>9106</soloMmr>
-    <carry>0</carry>
-    <mid>86</mid>
-    <offlane>6</offlane>
-    <support>6</support>
-    <kills_min>0.16</kills_min>
-    <death_min>0.09</death_min>
-    <assist_min>0.22</assist_min>
-    <GPM>590</GPM>
-    <XPM>524</XPM>
-  </Player>
-  <Player>
-    <nickname>Miracle-</nickname>
-    <Fio>Amer al-Barqawi</Fio>
-    <country>Иордания </country>
-    <rarity>1</rarity>
-    <coast>1414</coast>
-    <soloMmr>9106</soloMmr>
-    <carry>0</carry>
-    <mid>86</mid>
-    <offlane>6</offlane>
-    <support>6</support>
-    <kills_min>0.16</kills_min>
-    <death_min>0.09</death_min>
-    <assist_min>0.22</assist_min>
-    <GPM>590</GPM>
-    <XPM>524</XPM>
-  </Player>
-  <Player>
-    <nickname>Sumail</nickname>
-    <Fio>Syed Sumail Hassan</Fio>
-    <country>Пакистан </country>
-    <rarity>2</rarity>
-    <coast>1851</coast>
-    <soloMmr>7265</soloMmr>
+    <nickname>JerAx</nickname>
+    <Fio>Jesse Vainikka</Fio>
+    <country>Финляндия </country>
+    <rarity>0</rarity>
+    <coast>740</coast>
+    <soloMmr>7509</soloMmr>
     <carry>0</carry>
     <mid>100</mid>
     <offlane>0</offlane>
     <support>0</support>
-    <kills_min>0.2</kills_min>
-    <death_min>0.07</death_min>
-    <assist_min>0.21</assist_min>
-    <GPM>665</GPM>
-    <XPM>586</XPM>
+    <kills_min>0.12</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.41</assist_min>
+    <GPM>337</GPM>
+    <XPM>403</XPM>
+    <signatures>
+      <string>Earth Spirit</string>
+      <string>Rubick</string>
+      <string>Winter Wyvern</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>ComeWithMe</nickname>
+    <Fio>Alexandru Craciunescu</Fio>
+    <country>Румыния </country>
+    <rarity>0</rarity>
+    <coast>701</coast>
+    <soloMmr>7465</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.1</kills_min>
+    <death_min>0.18</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>337</GPM>
+    <XPM>364</XPM>
+    <signatures>
+      <string>Visage</string>
+      <string>Vengeful Spirit</string>
+      <string>Rubick</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Sneyking</nickname>
+    <Fio>Jingjun Wu</Fio>
+    <country>США &lt;</country>
+    <rarity>0</rarity>
+    <coast>896</coast>
+    <soloMmr>7904</soloMmr>
+    <carry>13</carry>
+    <mid>0</mid>
+    <offlane>86</offlane>
+    <support>0</support>
+    <kills_min>0.17</kills_min>
+    <death_min>0.15</death_min>
+    <assist_min>0.3</assist_min>
+    <GPM>448</GPM>
+    <XPM>448</XPM>
+    <signatures>
+      <string>Templar Assassin</string>
+      <string>Nature&amp;#39;s Prophet</string>
+      <string>Storm Spirit</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Zai</nickname>
+    <Fio>Ludwig Wåhlberg</Fio>
+    <country>Швеция </country>
+    <rarity>0</rarity>
+    <coast>541</coast>
+    <soloMmr>8208</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.05</kills_min>
+    <death_min>0.18</death_min>
+    <assist_min>0.3</assist_min>
+    <GPM>265</GPM>
+    <XPM>276</XPM>
+    <signatures>
+      <string>Visage</string>
+      <string>Enigma</string>
+      <string>Io</string>
+    </signatures>
   </Player>
 </ArrayOfPlayer>

@@ -7,7 +7,7 @@ public class Ser_Command : MonoBehaviour {
 
 	void Start ()
     {
-       // Begin();
+        //Begin();
     }
 
     private void Begin()
