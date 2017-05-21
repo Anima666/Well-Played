@@ -12,8 +12,8 @@
         <soloMmr>7334</soloMmr>
         <carry>0</carry>
         <mid>0</mid>
-        <offlane>0</offlane>
-        <support>100</support>
+        <offlane>100</offlane>
+        <support>0</support>
         <kills_min>0.14</kills_min>
         <death_min>0.15</death_min>
         <assist_min>0.43</assist_min>
@@ -55,9 +55,9 @@
         <coast>767</coast>
         <soloMmr>7033</soloMmr>
         <carry>0</carry>
-        <mid>0</mid>
+        <mid>100</mid>
         <offlane>0</offlane>
-        <support>100</support>
+        <support>0</support>
         <kills_min>0.08</kills_min>
         <death_min>0.15</death_min>
         <assist_min>0.43</assist_min>

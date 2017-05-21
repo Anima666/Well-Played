@@ -7,11 +7,12 @@ using System;
 
 public class next_card : MonoBehaviour {
 
-    // Use this for initialization
+    public GameObject panel_result;
     public GameObject card;
     Global2 gl = new Global2();
     public GameObject global;
     private GameObject[] btn;
+    private GameObject[] hero_enemy_onminimap;
     GameObject[] place_on_minimap_ally;
     void Start ()
     {
@@ -19,15 +20,54 @@ public class next_card : MonoBehaviour {
         TetstClassic.curr_cards = new int[5];
         gl.Deserilize("Currenteam");
         gl.SetInfOneCard(card, gl.People[0]);
+        Sprite sp;
+        image_team[0].GetComponent<Image>().color = Color.green;
+        for (int i = 0; i < 5; i++)
+        {
+            sp = Resources.Load<Sprite>("Player/" + gl.People[i].nickname);
+            if (sp == null)
+                sp = Resources.Load<Sprite>("no_imgPlayer.png");
+            image_team[i].GetComponent<Image>().sprite = sp;
+                }
+       
 
         img1 = GetComponent<SetRandomHero>().img1;
-       // place_on_minimap = GameObject.FindGameObjectsWithTag("set_img");
+       
         img2 = GetComponent<SetRandomHero>().img2;
         place_on_minimap_ally = GetComponent<choice_hero>().place_on_minimap;
+        hero_enemy_onminimap = GetComponent<choice_hero>().place_on_minimap_enemy;
         for (int q = 0; q < 4; q++)
         {
             array[q] = new array_role_check();
+            
         }
+        hero_roles[0]= "mid";
+        hero_roles[1] = "carry";
+        hero_roles[2] = "offlane";
+        hero_roles[3] = "support";
+
+        sr.Com_Deserilize("command");
+        cm_enemy = SearchCommand("natus_vincere");
+        for (int i = 0; i < cm_enemy.pl.Count; i++)
+        {
+            cm_enemy.pl[i].Role = SetValueAndRole(cm_enemy, i);
+          //  print(cm_enemy.pl[i].Role);
+        }
+        int count = 0;
+        int count_2 = 0;
+        for (int i = 0; i < signatures_player.Length; i++)
+        {
+            if (count == 3)
+                count = 0;
+            //for (int j = 0; j < gl.People[i].signatures.Length; j++)
+           // {
+                signatures_player[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("heroes/"+gl.People[count_2/3].signatures[count]);
+            // }
+            count++;
+            count_2++;
+        }
+        SetEnemyTeamOnMinimap();
+
     }
 
     int count = 1;
@@ -35,21 +75,48 @@ public class next_card : MonoBehaviour {
     GameObject[] img2;
     public GameObject btn_next;
     int last_btn = 0;
-	public void Next ()
+    public GameObject[] image_team;
+    public GameObject[] signatures_player;
+    public void Next ()
     {
         //count = 5;
 
         btn_next.SetActive(false);
+        
+        SetBtnAndImage();
+        image_team[count].GetComponent<Image>().color = Color.green;
+        
         if (count == 5)
         {
-            
             CheckhWin();
             return;
         }
-        SetBtnAndImage();
         count++;
     }
 
+    private void SetEnemyTeamOnMinimap()
+    {
+        List<string> heroes = GetComponent<SetRandomHero>().heroes;
+        for (int i = 0; i < 5; i++)
+        {
+            for (int j = 0; j < 5; j++)
+            {
+                if (hero_enemy_onminimap[i].name == cm_enemy.pl[j].Role)
+                {
+                    string name_hero = heroes[UnityEngine.Random.Range(0, heroes.Count)];
+                    CheckSet ch = hero_enemy_onminimap[i].GetComponent<CheckSet>();
+                    ch.nickame = cm_enemy.pl[i].nickname;
+                    ch.hero = name_hero;
+                    ch.role = cm_enemy.pl[j].Role;
+                    hero_enemy_onminimap[i].GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("heroes/" + name_hero);
+
+                }
+            }
+        }
+    }
+
+    Command cm_enemy = new Command();
+    string[] hero_roles = new string[4];
     private void SetBtnAndImage()
     {
         last_btn = TetstClassic.last_btn;
@@ -71,26 +138,24 @@ public class next_card : MonoBehaviour {
     public void CheckhWin()
     {
 
-        sr.Com_Deserilize("command");
-        Command cm_enemy = new Command();
-        cm_enemy =SearchCommand("natus_vincere");
-
         Command my_cm = new Command();
         my_cm.pl = gl.People;
 
-        int points_one = GetPointFromTeam(my_cm);
-        int points_two = GetPointFromTeam(cm_enemy);
-        // for (int i = 0; i < 5; i++)
-        // {
-        print(SearchPlayer(my_cm, "support"));
-        print(SearchPlayer(cm_enemy, "support"));
+        int points_one = GetPointFromTeam_ally(my_cm);
+        int points_two = GetPointFromTeam_enemy(cm_enemy);
+        for (int i = 0; i < hero_roles.Length; i++)
+        {
+            if (SearchPlayer(my_cm, hero_roles[i]) > SearchPlayer(cm_enemy, hero_roles[i]))
+                points_one++;
+            else
+                points_two++;
+        }
 
-        //CheckBasicCharacter(SearchPlayer(my_cm,"carry"), SearchPlayer(cm_enemy, "carry"), ref points_one, ref points_two); //нужно сравнивать по ролям (mid||mid)
-        //print("role "+my_cm.pl[i].Role);
-        //CheckBasicCharacter(SearchPlayer(my_cm, "mid"), SearchPlayer(cm_enemy, "mid"), ref points_one, ref points_two);
-        //CheckBasicCharacter(SearchPlayer(my_cm, "support"), SearchPlayer(cm_enemy, "support"), ref points_one, ref points_two);
-        //CheckBasicCharacter(SearchPlayer(my_cm, "offlane"), SearchPlayer(cm_enemy, "offlane"), ref points_one, ref points_two);
-        //}
+        panel_result.SetActive(true);
+        //if (points_one > points_two)
+        //    panel_result.GetComponent<Text>().text = "You Win";
+        //else
+        //    panel_result.
         print("point A "+ points_one);
         print("point B " + points_two);
 
@@ -100,14 +165,17 @@ public class next_card : MonoBehaviour {
 
     double SearchPlayer(Command cm,string role)
     {
-        double count = 0;
+        double point = 0;
+        int count = 0;
         var playeer = cm.pl.Where(x => x.Role == role);
         foreach (Player item in playeer)
         {
-            count+= item.XPM + item.GPM + item.kills_min + item.assist_min - item.death_min;
+            point+= item.XPM + item.GPM + item.kills_min + item.assist_min - item.death_min;
+            count++;
+         //   print("item "+item.nickname);
         }
-
-       return count;
+        print("role - "+ role +" "+ point / count);
+       return point/count;
   
     }
 
@@ -165,7 +233,7 @@ public class next_card : MonoBehaviour {
     CheckSet ch = new CheckSet();
     Ser_Command sr = new Ser_Command();
 
-    int GetPointFromTeam(Command comand) //for enemy dont work
+    int GetPointFromTeam_ally(Command comand) 
     {
         int count = 0;
         int role_count = 0;
@@ -175,23 +243,54 @@ public class next_card : MonoBehaviour {
         for (int i = 0; i < comand.pl.Count; i++)
         {
             role = SetValueAndRole(comand, i);
-            comand.pl[i].Role = role;
+            
 
             for (int k = 0; k < 5; k++)
             {
-                ch = place_on_minimap_ally[k].GetComponent<CheckSet>();             
+                ch = place_on_minimap_ally[k].GetComponent<CheckSet>();
+                
                 if (comand.pl[i].nickname == ch.nickame) 
                 {
+                    comand.pl[i].Role = ch.role;       
                     if (role == ch.role)
                         role_count++;
-                    count = CheckSignatures(comand, count, i);
+                  
+                   count = CheckSignatures(comand, count, i);
                 }
             }
         }
       //  print("ccount "+ role_count);
         return count + role_count;
     }
+    int GetPointFromTeam_enemy(Command comand)
+    {
+        int count = 0;
+        int role_count = 0;
 
+        string role;
+
+        for (int i = 0; i < comand.pl.Count; i++)
+        {
+            role = SetValueAndRole(comand, i);
+
+
+            for (int k = 0; k < 5; k++)
+            {
+                ch = hero_enemy_onminimap[k].GetComponent<CheckSet>();
+
+                if (comand.pl[i].nickname == ch.nickame)
+                {
+                    comand.pl[i].Role = ch.role;
+                    if (role == ch.role)
+                        role_count++;
+
+                    count = CheckSignatures(comand, count, i);
+                }
+            }
+        }
+        //  print("ccount "+ role_count);
+        return count + role_count;
+    }
     private int CheckSignatures(Command comand, int count, int i)
     {
         for (int j = 0; j < comand.pl[i].signatures.Length; j++)
@@ -234,7 +333,7 @@ public class next_card : MonoBehaviour {
     
     Command SearchCommand(string name_team)
     {
-        string[] lel = { "12", "213" };
+       
         var cm = sr.command.Where(x => x.name == name_team).Select(x=>x).First() ;
         return cm ;
     }

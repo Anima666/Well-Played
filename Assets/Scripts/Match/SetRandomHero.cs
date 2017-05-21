@@ -8,13 +8,16 @@ public class SetRandomHero : MonoBehaviour {
 
     public GameObject[] img1;
     public GameObject[] img2;
-    static  List<string> heroes = new List<string>();
+    public  List<string> heroes = new List<string>();
+
     void Start()
     {
         // Menu.OffUpPanel();
+        
+          
         string name_hero;
         Sprite sp;
-        ReadHeroesName();
+        ReadHeroesName(heroes);
         GameObject[] btn_hero = GetComponent<choice_hero>().hero;
         for (int i = 0; i < 5; i++)
         {
@@ -29,7 +32,7 @@ public class SetRandomHero : MonoBehaviour {
         
     }
 
-    private static void ReadHeroesName()
+    private static void ReadHeroesName(List<string> heroes)
     {
         TextAsset _xml = Resources.Load<TextAsset>("hero_name");
         using (StringReader reader = new StringReader(_xml.ToString()))

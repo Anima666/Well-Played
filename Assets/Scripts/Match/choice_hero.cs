@@ -10,6 +10,7 @@ public class choice_hero : MonoBehaviour {
     int last_n=322;
     GameObject[] img;
     public GameObject[] place_on_minimap;
+    public GameObject[] place_on_minimap_enemy;
     void Start ()
     {
        img = GetComponent<SetRandomHero>().img1;
