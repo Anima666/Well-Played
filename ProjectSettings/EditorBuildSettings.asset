@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Match.unity
+    guid: b40512b3f0d24c44f8d775590fcbf678
+  - enabled: 1
     path: Assets/minimap.unity
     guid: 9ad55cd642aa4a944b7418f0a1adb384
   - enabled: 1
@@ -20,8 +23,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Shop.unity
     guid: c9166c62068955b4aabccaea4cfee786
-  - enabled: 1
-    path: Assets/FirstScene.unity
+  - enabled: 0
+    path: 
     guid: 3b13ee3255a93884ab811d81634bb06e
   - enabled: 1
     path: Assets/mainmenu.unity

@@ -12,6 +12,7 @@ TagManager:
   - signature
   - up_panel
   - next_card
+  - set_img
   layers:
   - Default
   - TransparentFX

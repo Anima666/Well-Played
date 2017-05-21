@@ -4,11 +4,8 @@ using UnityEngine.UI;
 
 public class moveheroes : MonoBehaviour {
 
-
-     Vector3 start_pos;
+     public Vector3 start_pos;
      bool may_pos = true;
-
-
     private Ray ray;
     public Camera _camera;
     private RaycastHit hit;
@@ -24,22 +21,23 @@ public class moveheroes : MonoBehaviour {
 
     }
     Collider2D col;
+    // public bool set = false;
     void OnTriggerEnter2D(Collider2D other)
     {
-        col = other;
-        if (may_pos == true)
+        if (other.GetComponent<SpriteRenderer>().sprite.name == "hero_black")
         {
-            col.GetComponent<SpriteRenderer>().sprite = GetComponent<Image>().sprite;
-            col.transform.localScale = transform.localScale;
-            may_pos = false;
-            transform.position = col.transform.position;
-            check_press = false;
-            btn.SetActive(true);
-
+            col = other;
+            if (may_pos == true)
+            {
+                col.GetComponent<SpriteRenderer>().sprite = GetComponent<Image>().sprite;
+                //  col.transform.localScale = transform.localScale;
+                may_pos = false;
+                transform.position = col.transform.position;
+                check_press = false;
+                btn.SetActive(true);
+            }
         }
-
-
-        }
+    }
    
     
     void OnMouseDown()
@@ -49,9 +47,11 @@ public class moveheroes : MonoBehaviour {
             check_press = true;
             if (may_pos == false)
             {
-                col.GetComponent<SpriteRenderer>().sprite = null;
+                SetNoImage();
                 may_pos = true;
+
                 btn.SetActive(false);
+                // set = false;
             }
         }
         else
@@ -59,6 +59,12 @@ public class moveheroes : MonoBehaviour {
             check_press = false;
         }
     }
+
+    public void SetNoImage()
+    {
+        col.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("hero_black");
+    }
+
     void Update()
     {
         if (may_pos == true)
@@ -68,12 +74,16 @@ public class moveheroes : MonoBehaviour {
                 mousePosition = _camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, _camera.transform.position.y + 10));
                 transform.position = mousePosition;
             }
-            if (check_press == false)
-            {
-                transform.position = start_pos;
-            }
+            set_start_pos();
         }
-     }
-        
     }
+
+     public void set_start_pos()
+    {
+        if (check_press == false)
+        {
+            transform.position = start_pos;
+        }
+    }
+}
 

@@ -85,7 +85,7 @@ Slark
 Sniper
 Spectre
 Spirit_Breaker
-Storm_Spirit
+Storm Spirit
 Sven
 Techies
 Templar Assassin
@@ -99,7 +99,7 @@ Troll Warlord
 Tusk
 Undying
 Ursa
-Vengeful_Spirit
+Vengeful Spirit
 Venomancer
 Viper
 Visage

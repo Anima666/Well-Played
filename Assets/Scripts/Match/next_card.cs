@@ -10,16 +10,18 @@ public class next_card : MonoBehaviour {
     Global2 gl = new Global2();
     public GameObject global;
     private GameObject[] btn;
+    GameObject[] place_on_minimap;
     void Start ()
     {
-       
         btn = global.GetComponent<choice_hero>().hero ;
         TetstClassic.curr_cards = new int[5];
         gl.Deserilize("Currenteam");
         gl.SetInfOneCard(card, gl.People[0]);
 
         img1 = GetComponent<SetRandomHero>().img1;
+        place_on_minimap = GameObject.FindGameObjectsWithTag("set_img");
         img2 = GetComponent<SetRandomHero>().img2;
+        place_on_minimap = GetComponent<choice_hero>().place_on_minimap;
     }
 
     int count = 1;
@@ -40,8 +42,16 @@ public class next_card : MonoBehaviour {
         btn[last_btn].GetComponent<Button>().enabled = false;
         gl.SetInfOneCard(card,gl.People[count]);
 
-        img1[last_btn].GetComponent<Image>().color = Color.grey;
+        img2[last_btn].GetComponent<Image>().color = Color.grey;
+        img1[last_btn].GetComponent<CheckSet>().set = true;
         img1[last_btn].GetComponent<moveheroes>().enabled = false;
+        img1[last_btn].GetComponent<Button>().enabled = false;
+        for (int i = 0; i < place_on_minimap.Length; i++)
+        {
+            if (place_on_minimap[i].GetComponent<SpriteRenderer>().sprite.name != "hero_black")
+                place_on_minimap[i].GetComponent<CheckSet>().set = true;
+        }
+      
 
         // img2[last_btn].GetComponent<Image>().color = Color.grey;
 
