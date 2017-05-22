@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.Advertisements;
+
 
 
 
@@ -69,41 +71,40 @@ public class Menu : MonoBehaviour {
         TetstClassic.count = 0;
         SceneManager.LoadScene("setRole");
     }
-    //public void ShowAd()
-    //{
-    //    if (Advertisement.IsReady())
-    //    {
-    //        Advertisement.Show();
-    //    }
-    //}
 
-    //public void ShowRewardedAd()
-    //{
-    //    if (Advertisement.IsReady("rewardedVideo"))
-    //    {
-    //        var options = new ShowOptions { resultCallback = HandleShowResult };
-    //        Advertisement.Show("rewardedVideo", options);
-    //    }
-    //}
+    public void ShowRewardedAd()
+    {
+        if (Advertisement.IsReady("rewardedVideo"))
+        {
+            var options = new ShowOptions { resultCallback = ShowSimple };
+            Advertisement.Show("rewardedVideo", options);
+        }
+    }
+    public void ShowRewardedAdWinPanel()
+    {
+        if (Advertisement.IsReady("rewardedVideo"))
+        {
+            var options = new ShowOptions { resultCallback = RewaerWinPanel };
+            Advertisement.Show("rewardedVideo", options);
+        }
+    }
 
-    //private void HandleShowResult(ShowResult result)
-    //{
-    //    switch (result)
-    //    {
-    //        case ShowResult.Finished:
-    //            Debug.Log("The ad was successfully shown.");
+    private void RewaerWinPanel(ShowResult result)
+    {
+        if (result== ShowResult.Finished)
+        {
+            PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") +200);
 
-    //            PlayerPrefs.SetInt("Diamond", PlayerPrefs.GetInt("Diamond")+100);
-    //            GetComponent<GetMoney>().RefreshMoney();
+        }
+    }
+    private void ShowSimple(ShowResult result)
+    {
+        if (result == ShowResult.Finished)
+        {
+            PlayerPrefs.SetInt("Diamond", PlayerPrefs.GetInt("Diamond") + 5);
 
-    //            break;
-    //        case ShowResult.Skipped:
-    //            Debug.Log("The ad was skipped before reaching the end.");
-    //            break;
-    //        case ShowResult.Failed:
-    //            Debug.LogError("The ad failed to be shown.");
-    //            break;
-    //    }
-    //}
+        }
+    }
+
 }
 

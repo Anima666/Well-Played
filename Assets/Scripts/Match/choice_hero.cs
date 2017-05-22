@@ -45,7 +45,7 @@ public class choice_hero : MonoBehaviour {
                 }
             }
 
-            hero[n].GetComponent<Image>().color = Color.green;
+            hero[n].GetComponent<Image>().color = new Color32(0,255,128,255);
             hero[n].GetComponentInChildren<Text>().color = Color.white;
             img[n].GetComponent<moveheroes>().enabled = true;
             TetstClassic.last_btn = n;

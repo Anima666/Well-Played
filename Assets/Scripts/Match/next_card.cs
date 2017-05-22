@@ -32,7 +32,8 @@ public class next_card : MonoBehaviour {
        
 
         img1 = GetComponent<SetRandomHero>().img1;
-       
+
+        //img2 = img1.Clone;
         img2 = GetComponent<SetRandomHero>().img2;
         place_on_minimap_ally = GetComponent<choice_hero>().place_on_minimap;
         hero_enemy_onminimap = GetComponent<choice_hero>().place_on_minimap_enemy;
@@ -48,21 +49,19 @@ public class next_card : MonoBehaviour {
 
         sr.Com_Deserilize("command");
         cm_enemy = SearchCommand("natus_vincere");
+
         for (int i = 0; i < cm_enemy.pl.Count; i++)
         {
             cm_enemy.pl[i].Role = SetValueAndRole(cm_enemy, i);
-          //  print(cm_enemy.pl[i].Role);
         }
+
         int count = 0;
         int count_2 = 0;
         for (int i = 0; i < signatures_player.Length; i++)
         {
             if (count == 3)
-                count = 0;
-            //for (int j = 0; j < gl.People[i].signatures.Length; j++)
-           // {
+                count = 0;           
                 signatures_player[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("heroes/"+gl.People[count_2/3].signatures[count]);
-            // }
             count++;
             count_2++;
         }
@@ -83,15 +82,17 @@ public class next_card : MonoBehaviour {
 
         btn_next.SetActive(false);
         
-        SetBtnAndImage();
-        image_team[count].GetComponent<Image>().color = Color.green;
+        
+       // image_team[count].GetComponent<Image>().color = Color.green;
         
         if (count == 5)
         {
             CheckhWin();
             return;
         }
+        SetBtnAndImage();
         count++;
+        
     }
 
     private void SetEnemyTeamOnMinimap()
@@ -152,10 +153,9 @@ public class next_card : MonoBehaviour {
         }
 
         panel_result.SetActive(true);
-        //if (points_one > points_two)
-        //    panel_result.GetComponent<Text>().text = "You Win";
-        //else
-        //    panel_result.
+        if (points_one > points_two)
+            panel_result.GetComponentInChildren<Text>().text = "You Win";
+
         print("point A "+ points_one);
         print("point B " + points_two);
 
