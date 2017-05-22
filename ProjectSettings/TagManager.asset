@@ -13,6 +13,8 @@ TagManager:
   - up_panel
   - next_card
   - set_img
+  - canvas
+  - continue_btn
   layers:
   - Default
   - TransparentFX

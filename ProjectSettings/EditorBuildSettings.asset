@@ -20,12 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/changeLan.unity
     guid: ea91ba4d471ff4a47ae73f54f033c3e4
-  - enabled: 1
-    path: Assets/Shop.unity
-    guid: c9166c62068955b4aabccaea4cfee786
   - enabled: 0
     path: 
     guid: 3b13ee3255a93884ab811d81634bb06e
+  - enabled: 1
+    path: Assets/Shop.unity
+    guid: c9166c62068955b4aabccaea4cfee786
   - enabled: 1
     path: Assets/mainmenu.unity
     guid: 9e51589d9418883498ea31f49dc0f929

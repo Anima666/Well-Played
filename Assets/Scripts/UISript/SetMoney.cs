@@ -1,13 +1,22 @@
 ﻿using UnityEngine;
-using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SetMoney : MonoBehaviour {
 
     public int coins;
     public int diamond;
-    void Start()
+    public InputField inputfield;
+
+    public void setmoney()
     {
-        PlayerPrefs.SetInt("Coins", coins);
-        PlayerPrefs.SetInt("Diamond", diamond);
+        if (inputfield.text != "")
+        {
+            PlayerPrefs.SetInt("Coins", coins);
+            PlayerPrefs.SetInt("Diamond", diamond);
+            PlayerPrefs.SetInt("continue", 1);
+            SceneManager.LoadScene("mainmenu");
+            TetstClassic.lastscene = SceneManager.GetActiveScene().name;
+        }
     }
 }

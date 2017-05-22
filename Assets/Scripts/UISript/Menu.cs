@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.Advertisements;
+using System;
 
 
 
@@ -14,6 +15,12 @@ public class Menu : MonoBehaviour {
         if (SceneManager.GetActiveScene().name != "MainScene")
             SceneManager.LoadScene("MainScene");
 	}
+    public GameObject inputpanel;
+    public void InputPanel()
+    {
+
+        inputpanel.SetActive(true);
+    }
     public void OpenShop()
     {
         SceneManager.LoadScene("Shop");
@@ -50,6 +57,17 @@ public class Menu : MonoBehaviour {
     {
         SceneManager.LoadScene(TetstClassic.lastscene);
     }
+     public GameObject continue_btn;
+     public void EnableContinuePanel()
+    {
+       if( PlayerPrefs.GetInt("continue")==1)
+        {
+            if (continue_btn != null)
+            continue_btn.SetActive(true);
+           // ""
+        }
+
+    } 
     Role_player nr = new Role_player();
     public void SetRole()
     {  
@@ -61,10 +79,38 @@ public class Menu : MonoBehaviour {
         SceneManager.LoadScene("setRole");
 
     }
+    static bool Sort(string name)
+    {
+        switch(name)
+        {
+           case "mainmenu": return true;
+           case "dataplayer": return true;
+           case "opencase": return true;
+           case "Shop": return true;
+           default: return false;
+        }
+  
+    }
     public static void OffUpPanel()
     {
-        GameObject up_panel = GameObject.FindGameObjectWithTag("up_panel");
-        up_panel.SetActive(false);
+       
+        GameObject canvas = GameObject.FindGameObjectWithTag("canvas");       
+        GameObject up_panel = canvas.transform.Find("UpPanel").gameObject;
+
+    
+        if (up_panel != null)
+        {
+            string name_scene = SceneManager.GetActiveScene().name;
+            if (Sort(name_scene))
+            {
+                up_panel.SetActive(true);
+            }
+            else
+            {
+                up_panel.SetActive(false);
+            }
+        }
+        
     }
     public void OpenSetRole()
     {
@@ -104,6 +150,11 @@ public class Menu : MonoBehaviour {
             PlayerPrefs.SetInt("Diamond", PlayerPrefs.GetInt("Diamond") + 5);
 
         }
+    }
+    void Start()
+    {
+        EnableContinuePanel();
+        Menu.OffUpPanel();
     }
 
 }

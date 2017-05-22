@@ -12,7 +12,9 @@ public class CloseAboutAuthor : MonoBehaviour {
 	// Update is called once per frame
 	void OnMouseDown ()
     {
-        panel.SetActive(false);
+        if (panel != null)
+            panel.SetActive(false);
+        if (fon_dark!=null)
         fon_dark.SetActive(false);
     }
 }
