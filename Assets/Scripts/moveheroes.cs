@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class moveheroes : MonoBehaviour {
 
      public Vector3 start_pos;
-     bool may_pos = true;
+    bool set = false;
     private Ray ray;
     public Camera _camera;
     private RaycastHit hit;
@@ -27,8 +27,8 @@ public class moveheroes : MonoBehaviour {
         if (other.GetComponent<SpriteRenderer>().sprite.name == "hero_black")
         {
             col = other;
-            if (may_pos == true)
-            {
+           // if (may_pos == true)
+            //{
                 GameObject card = GameObject.FindGameObjectWithTag("Player"); //придумай що получще
                 CheckSet ch = col.GetComponent<CheckSet>();
 
@@ -37,38 +37,36 @@ public class moveheroes : MonoBehaviour {
                 ch.role = col.name;
 
                 col.GetComponent<SpriteRenderer>().sprite = GetComponent<Image>().sprite;
-                //  col.transform.localScale = transform.localScale;
-                may_pos = false;
+                set = true;
                 transform.position = col.transform.position;
                 check_press = false;
                 btn.SetActive(true);
-            }
+           // }
         }
     }
-   
-    
+
+    int count = 0;
     void OnMouseDown()
     {
-        if (check_press == false)
+        count++;
+        if (count == 2)
         {
-            check_press = true;
-            if (may_pos == false)
+            SetNoImage();
+            btn.SetActive(false);
+            CheckSet ch = col.GetComponent<CheckSet>();
+            if (ch != null)
             {
-                SetNoImage();
-                may_pos = true;
-
-                btn.SetActive(false);
-                CheckSet ch = col.GetComponent<CheckSet>();
-
                 ch.nickame = "";
                 ch.hero = "";
-                // set = false;
+                ch.role = "";
             }
+            set_start_pos();
+            count = 0;
+            set = false;
+
         }
-        else
-        {
-            check_press = false;
-        }
+   
+       
     }
 
     public void SetNoImage()
@@ -78,15 +76,12 @@ public class moveheroes : MonoBehaviour {
 
     void Update()
     {
-        if (may_pos == true)
-        {
-            if (check_press == true)
+        if (set!=true)
             {
                 mousePosition = _camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, _camera.transform.position.y + 10));
                 transform.position = mousePosition;
             }
-            set_start_pos();
-        }
+       
     }
 
      public void set_start_pos()

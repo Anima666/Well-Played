@@ -151,12 +151,20 @@ public class next_card : MonoBehaviour {
             else
                 points_two++;
         }
-
+        Text text = panel_result.GetComponentInChildren<Text>();
         panel_result.SetActive(true);
         if (points_one > points_two)
-            panel_result.GetComponentInChildren<Text>().text = "You Win";
+            text.text = "You Win";
+        else if (points_one < points_two)
+        {
+            text.text = "You Lose (";
+        }
+        else
+        {
+            text.text = "Ничья";
+        }
 
-        print("point A "+ points_one);
+            print("point A "+ points_one);
         print("point B " + points_two);
 
 

@@ -16,7 +16,7 @@ public class test : MonoBehaviour {
     }
 
     // Update is called once per frame
-    bool open;
+    public bool open=false;
     void OnMouseEnter()
     {
 
@@ -32,16 +32,19 @@ public class test : MonoBehaviour {
     }
     void OnMouseDown()
     {
+        
         count_of_press++;
         if (count_of_press == 2)
         {
+           // print("1");
             if (open == false)
             {
                 open = true;
+                count_of_press = 0;
                 anim.Play("rotate");
-
+               
             }
-            count_of_press = 0;
+            
         }
     }
     void OnMouseExit()

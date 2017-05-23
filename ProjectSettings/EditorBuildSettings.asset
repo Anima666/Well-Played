@@ -6,14 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Match.unity
-    guid: b40512b3f0d24c44f8d775590fcbf678
-  - enabled: 1
-    path: Assets/minimap.unity
-    guid: 9ad55cd642aa4a944b7418f0a1adb384
-  - enabled: 1
     path: Assets/MainScene.unity
     guid: 13f6fab52674d3f44aafe222b1ba6795
+  - enabled: 0
+    path: 
+    guid: 9ad55cd642aa4a944b7418f0a1adb384
   - enabled: 1
     path: Assets/dataplayer.unity
     guid: b28d0535220fc1d419cc366f41dc3c25
@@ -35,3 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/setRole.unity
     guid: f8bdcb8108a0b7340afc7e504c14e776
+  - enabled: 1
+    path: Assets/Match.unity
+    guid: b40512b3f0d24c44f8d775590fcbf678

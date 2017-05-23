@@ -15,6 +15,11 @@ public class Menu : MonoBehaviour {
         if (SceneManager.GetActiveScene().name != "MainScene")
             SceneManager.LoadScene("MainScene");
 	}
+    public void OpenMatch()
+    {
+        TetstClassic.lastscene = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene("Match");
+    }
     public GameObject inputpanel;
     public void InputPanel()
     {
@@ -87,7 +92,8 @@ public class Menu : MonoBehaviour {
            case "dataplayer": return true;
            case "opencase": return true;
            case "Shop": return true;
-           default: return false;
+            case "Match": return false;
+            default: return false;
         }
   
     }
@@ -140,6 +146,7 @@ public class Menu : MonoBehaviour {
         if (result== ShowResult.Finished)
         {
             PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") +200);
+            GetComponent<GetMoney>().RefreshMoney();
 
         }
     }
@@ -148,6 +155,7 @@ public class Menu : MonoBehaviour {
         if (result == ShowResult.Finished)
         {
             PlayerPrefs.SetInt("Diamond", PlayerPrefs.GetInt("Diamond") + 5);
+            GetComponent<GetMoney>().RefreshMoney();
 
         }
     }

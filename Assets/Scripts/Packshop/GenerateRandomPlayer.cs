@@ -9,23 +9,20 @@ public class GenerateRandomPlayer : MonoBehaviour {
 
 
     public GameObject[] cards;
-   // List<Player> People;
     MainPlayer[] mp= new MainPlayer[3];
     Global2 gl;
-    public GameObject minus_txt;
-    private Transform transform_mins_txt;
+    public GameObject btn_skip;
     void Start ()
     {
-#if UNITY_EDITOR
+        #if UNITY_EDITOR
         PlayerPrefs.SetInt("Diamond", 1000);
 
-#endif
-        if (minus_txt != null)
-            transform_mins_txt = minus_txt.transform;
+        #endif
+
         gl = new Global2();
         gl.cards = cards;
         gl.Deserilize("persons");
-        //Advertisement.Initialize("1388368",true);
+
         for (int i = 0; i < cards.Length; i++)
         {
             mp[i] = cards[i].GetComponentInChildren<MainPlayer>();
@@ -41,18 +38,11 @@ public class GenerateRandomPlayer : MonoBehaviour {
     private GetMoney up_panel_getMoney;
     public void GetCards()
     {
-        //if (Advertisement.IsReady())
-        //{
 
-        //    Advertisement.Show();
-        //    if (Advertisement.isShowing)
-        //        print("show");
-        //}
-
-        // print("lol "+PlayerPrefs.GetInt("Diamond"));
         int diamond = PlayerPrefs.GetInt("Diamond");
-        if (diamond > Price)
+        if (diamond >= Price)
         {
+            btn_skip.SetActive(true);
             up_panel_getMoney.RefreshMoney();
             PlayerPrefs.SetInt("Diamond", diamond - Price);
 
@@ -109,10 +99,18 @@ public class GenerateRandomPlayer : MonoBehaviour {
 
     public int Price;
 
-
-    // Update is called once per frame
-    void Update ()
+    public void Skip()
     {
-       // print(transform_mins_txt.position.x);
-	}
+        btn_skip.SetActive(false);
+        text.SetActive(true);
+        for (int i = 0; i < cards.Length; i++)
+        {
+            cards[i].GetComponent<test>().open = false;
+            cards[i].SetActive(false);
+            cards[i].transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
+    }
+
+    
+  
 }
