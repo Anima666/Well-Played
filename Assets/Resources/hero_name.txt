@@ -1,5 +1,5 @@
 Abaddon
-Abyssal_Underlord
+Abyssal Underlord
 Alchemist
 Ancient Apparition
 Anti-Mage
@@ -84,7 +84,7 @@ Slardar
 Slark
 Sniper
 Spectre
-Spirit_Breaker
+Spirit Breaker
 Storm Spirit
 Sven
 Techies

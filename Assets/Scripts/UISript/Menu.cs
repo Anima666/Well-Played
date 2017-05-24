@@ -3,9 +3,8 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.Advertisements;
 using System;
-
-
-
+using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class Menu : MonoBehaviour {
 
@@ -14,6 +13,7 @@ public class Menu : MonoBehaviour {
     {
         if (SceneManager.GetActiveScene().name != "MainScene")
             SceneManager.LoadScene("MainScene");
+        TetstClassic.lastscene = SceneManager.GetActiveScene().name;
 	}
     public void OpenMatch()
     {
@@ -30,10 +30,29 @@ public class Menu : MonoBehaviour {
     {
         SceneManager.LoadScene("Shop");
     }
+    public MainPlayer mp;
+
+    public void Buy()
+    {
+        
+        int coins=PlayerPrefs.GetInt("Coins");
+        if (coins >= mp.player.coast)
+        {
+            Player pl = mp.player;
+            Global2 gl = new Global2();
+            gl.DeserilizeAndroid("my_command");
+            gl.People.Add(pl);
+            gl.SaveMyTeam("my_command", gl.People);
+            OpenShop();
+            PlayerPrefs.SetInt("Coins", coins - mp.player.coast);
+            GameObject.FindGameObjectWithTag("canvas").GetComponentInChildren<GetMoney>().RefreshMoney();
+        }
+    }
     public void OpenMain()
     {
         
         SceneManager.LoadScene("mainmenu");
+        TetstClassic.lastscene = SceneManager.GetActiveScene().name;
     }
     public void opnLanguageSetting()
     {
@@ -103,7 +122,7 @@ public class Menu : MonoBehaviour {
         GameObject canvas = GameObject.FindGameObjectWithTag("canvas");       
         GameObject up_panel = canvas.transform.Find("UpPanel").gameObject;
 
-    
+       
         if (up_panel != null)
         {
             string name_scene = SceneManager.GetActiveScene().name;

@@ -27,7 +27,9 @@ public class GenerateRandomPlayer : MonoBehaviour {
         {
             mp[i] = cards[i].GetComponentInChildren<MainPlayer>();
         }
-        up_panel_getMoney = up_panel.GetComponent<GetMoney>();
+        up_panel_getMoney = GameObject.FindGameObjectWithTag("canvas").GetComponentInChildren<GetMoney>();
+        if (up_panel_getMoney != null)
+            print("nenull");
     
 
 
@@ -43,9 +45,9 @@ public class GenerateRandomPlayer : MonoBehaviour {
         if (diamond >= Price)
         {
             btn_skip.SetActive(true);
-            up_panel_getMoney.RefreshMoney();
+           
             PlayerPrefs.SetInt("Diamond", diamond - Price);
-
+            up_panel_getMoney.RefreshMoney();
             text.SetActive(false);
             int chanceLeg;
             int chanceRare;
@@ -59,8 +61,9 @@ public class GenerateRandomPlayer : MonoBehaviour {
             {
                 cards[i].SetActive(true);
                 GetChance(out chanceLeg, out chanceRare, out n, sort_people);
-
-                mp[i].player = sort_people[Random.Range(0, sort_people.Count)];
+                int rd = Random.Range(0, sort_people.Count);
+                sort_people.RemoveAt(rd);
+                mp[i].player = sort_people[rd];
                 mp[i].sp = Resources.Load<Sprite>("Player/" + mp[i].player.nickname);
                 if (mp[i].sp == null)
                     mp[i].sp = Resources.Load<Sprite>("no_imgPlayer.png");

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ArrayOfPlayer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Player>
+    <nickname>AdmiralBulldog</nickname>
+    <Fio>Henrik Ahnberg</Fio>
+    <country />
+    <rarity>0</rarity>
+    <coast>920</coast>
+    <soloMmr>7594</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>100</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.23</assist_min>
+    <GPM>460</GPM>
+    <XPM>460</XPM>
+    <signatures>
+      <string>Nature&amp;#39;s Prophet</string>
+      <string>Lone Druid</string>
+      <string>Broodmother</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Ferrari_430</nickname>
+    <Fio>Luo Feichi</Fio>
+    <country />
+    <rarity>2</rarity>
+    <coast>1713</coast>
+    <soloMmr>8515</soloMmr>
+    <carry>7</carry>
+    <mid>92</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.12</kills_min>
+    <death_min>0.06</death_min>
+    <assist_min>0.21</assist_min>
+    <GPM>602</GPM>
+    <XPM>511</XPM>
+    <signatures>
+      <string>Shadow Fiend</string>
+      <string>Queen of Pain</string>
+      <string>Invoker</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Icy</nickname>
+    <Fio>Wang Peng</Fio>
+    <country />
+    <rarity>0</rarity>
+    <coast>584</coast>
+    <soloMmr>6769</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.13</death_min>
+    <assist_min>0.35</assist_min>
+    <GPM>272</GPM>
+    <XPM>312</XPM>
+    <signatures>
+      <string>Earthshaker</string>
+      <string>Rubick</string>
+      <string>Dazzle</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>VANSKOR</nickname>
+    <Fio>Ivan Skorokhod</Fio>
+    <country />
+    <rarity>0</rarity>
+    <coast>602</coast>
+    <soloMmr>7783</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>100</support>
+    <kills_min>0.08</kills_min>
+    <death_min>0.16</death_min>
+    <assist_min>0.33</assist_min>
+    <GPM>294</GPM>
+    <XPM>308</XPM>
+    <signatures>
+      <string>Rubick</string>
+      <string>Io</string>
+      <string>Doom</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Sedoy</nickname>
+    <Fio>Vadim Musorin</Fio>
+    <country />
+    <rarity>1</rarity>
+    <coast>1419</coast>
+    <soloMmr>8011</soloMmr>
+    <carry>100</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.24</kills_min>
+    <death_min>0.12</death_min>
+    <assist_min>0.29</assist_min>
+    <GPM>582</GPM>
+    <XPM>537</XPM>
+    <signatures>
+      <string>Juggernaut</string>
+      <string>Weaver</string>
+      <string>Sven</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Pajkatt</nickname>
+    <Fio>Per Anders Olsson Lille</Fio>
+    <country />
+    <rarity>1</rarity>
+    <coast>1424</coast>
+    <soloMmr>8577</soloMmr>
+    <carry>86</carry>
+    <mid>0</mid>
+    <offlane>13</offlane>
+    <support>0</support>
+    <kills_min>0.2</kills_min>
+    <death_min>0.1</death_min>
+    <assist_min>0.19</assist_min>
+    <GPM>561</GPM>
+    <XPM>563</XPM>
+    <signatures>
+      <string>Queen of Pain</string>
+      <string>Sniper</string>
+      <string>Mirana</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Bimbo</nickname>
+    <Fio>Ryan Jay Qui</Fio>
+    <country />
+    <rarity>2</rarity>
+    <coast>1793</coast>
+    <soloMmr>7225</soloMmr>
+    <carry>86</carry>
+    <mid>13</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0.27</kills_min>
+    <death_min>0.11</death_min>
+    <assist_min>0.29</assist_min>
+    <GPM>604</GPM>
+    <XPM>589</XPM>
+    <signatures>
+      <string>Invoker</string>
+      <string>Queen of Pain</string>
+      <string>Storm Spirit</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>Pajkatt</nickname>
+    <Fio>Per Anders Olsson Lille</Fio>
+    <country>Швеция </country>
+    <rarity>1</rarity>
+    <coast>1424</coast>
+    <soloMmr>8577</soloMmr>
+    <carry>86</carry>
+    <mid>0</mid>
+    <offlane>13</offlane>
+    <support>0</support>
+    <kills_min>0.2</kills_min>
+    <death_min>0.1</death_min>
+    <assist_min>0.19</assist_min>
+    <GPM>561</GPM>
+    <XPM>563</XPM>
+    <signatures>
+      <string>Queen of Pain</string>
+      <string>Sniper</string>
+      <string>Mirana</string>
+    </signatures>
+  </Player>
+</ArrayOfPlayer>

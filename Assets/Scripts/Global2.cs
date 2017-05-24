@@ -58,6 +58,7 @@ public class Global2 : MonoBehaviour {
             }
         } 
     }
+
     public void SetInfOneCard(GameObject card, Player player)
     {
         MainPlayer mp;
@@ -84,13 +85,41 @@ public class Global2 : MonoBehaviour {
         
     }
 
-    public  void Deserilize(string path)
+    public void Deserilize(string path)
     {
         TextAsset _xml = Resources.Load<TextAsset>(path);
-        StringReader reader = new StringReader(_xml.ToString());
-        
-        People = formatter.Deserialize(reader) as List<Player>;
-        reader.Close();
+        using (StringReader reader = new StringReader(_xml.ToString()))
+        {
+            People = formatter.Deserialize(reader) as List<Player>;
+        }
+
+    }
+    public void DeserilizeAndroid(string path)
+    {
+        XmlSerializer ser = new XmlSerializer(typeof(List<Player>));
+        StreamReader file = new StreamReader(Path.Combine(Application.persistentDataPath, "my_command.xml"));
+        People =ser.Deserialize(file) as List<Player>;
+        file.Close();
+
+    }
+
+    public void SaveMyTeam(string name, List<Player> rp)
+    {
+
+        //string path = Application.persistentDataPath +"/"+name+".xml";
+        //print(path);
+        //XmlSerializer formatter = new XmlSerializer(typeof(List<Player>));
+        //using (FileStream fs = new FileStream(path, FileMode.Truncate)) 
+        //{
+        //    formatter.Serialize(fs, rp);
+        //    print("Объект сериализован");
+
+        //}
+
+        XmlSerializer ser = new XmlSerializer(typeof(List<Player>));
+        StreamWriter file = new StreamWriter(Path.Combine(Application.persistentDataPath, name+".xml"));
+        ser.Serialize(file, rp);
+        file.Close();
     }
     public void SerilizeRole(string path, List<Role_player> rp)
     {

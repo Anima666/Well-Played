@@ -1,9 +1,9 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0" encoding="windows-1251"?>
 <ArrayOfPlayer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Player>
     <nickname>Wagamama</nickname>
     <Fio>Niklas</Fio>
-    <country>Швеция </country>
+    <country />
     <rarity>2</rarity>
     <coast>1000</coast>
     <soloMmr>7372</soloMmr>
@@ -25,7 +25,7 @@
   <Player>
     <nickname>JerAx</nickname>
     <Fio>Jesse Vainikka</Fio>
-    <country>Финляндия </country>
+    <country />
     <rarity>0</rarity>
     <coast>740</coast>
     <soloMmr>7509</soloMmr>
@@ -47,7 +47,7 @@
   <Player>
     <nickname>ComeWithMe</nickname>
     <Fio>Alexandru Craciunescu</Fio>
-    <country>Румыния </country>
+    <country />
     <rarity>0</rarity>
     <coast>701</coast>
     <soloMmr>7465</soloMmr>
@@ -69,7 +69,7 @@
   <Player>
     <nickname>Sneyking</nickname>
     <Fio>Jingjun Wu</Fio>
-    <country>США &lt;</country>
+    <country> &lt;</country>
     <rarity>0</rarity>
     <coast>896</coast>
     <soloMmr>7904</soloMmr>
@@ -90,8 +90,8 @@
   </Player>
   <Player>
     <nickname>Zai</nickname>
-    <Fio>Ludwig Wåhlberg</Fio>
-    <country>Швеция </country>
+    <Fio>Ludwig Wahlberg</Fio>
+    <country />
     <rarity>0</rarity>
     <coast>541</coast>
     <soloMmr>8208</soloMmr>
@@ -108,6 +108,26 @@
       <string>Visage</string>
       <string>Enigma</string>
       <string>Io</string>
+    </signatures>
+  </Player>
+  <Player>
+    <nickname>tesst</nickname>
+    <rarity>3</rarity>
+    <coast>100</coast>
+    <soloMmr>0</soloMmr>
+    <carry>0</carry>
+    <mid>0</mid>
+    <offlane>0</offlane>
+    <support>0</support>
+    <kills_min>0</kills_min>
+    <death_min>0</death_min>
+    <assist_min>0</assist_min>
+    <GPM>0</GPM>
+    <XPM>0</XPM>
+    <signatures>
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
     </signatures>
   </Player>
 </ArrayOfPlayer>
