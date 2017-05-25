@@ -9,13 +9,71 @@ public class ShowAllPLAyerINCollection : MonoBehaviour {
     public GameObject shop;
     public GameObject my_col;
     public GameObject[] blackrect;
-    int count = 0;
+    public int count = 0;
+
+    public void backpage()
+    {
+        int count = 0;
+        if (cout_page - 1 >= 0)
+        {
+            print("count "+cout_page);
+            cout_page--;
+            for (int i = cout_page * cards.Length; i < gl.People.Count; i++)
+            {
+                
+                // print("count "+gl.People.Count);
+                if (count < cards.Length)
+                {
+                    pl.Insert(0,gl.People[i]);
+                    //gl.SetInf();
+                    
+                    count++;
+                }
+            }
+        }
+        gl.SetInf(cards, pl);
+        for (int i = 0; i < cards.Length; i++)
+        {
+            cards[i].GetComponent<Button>().enabled = true;
+            for (int j = 0; j < blackrect.Length; j++)
+            {
+                if (cards[i].GetComponent<MainPlayer>().player.nickname == blackrect[j].GetComponentInChildren<Text>().text)
+                    cards[i].GetComponent<Button>().enabled = false;
+            }
+        }
+
+    }
+     public int cout_page = 0;
+     public List<Player> pl = new List<Player>();
+
+    public void nextpage()
+    {
+        //pl = new List<Player>();
+       
+        //pl = gl.People;
+        print("svatoiDux");
+        
+
+        pl.RemoveRange(0, cards.Length);
+        gl.SetInf(cards,pl);
+        cout_page++;
+        for (int i = 0; i < cards.Length; i++)
+        {
+            cards[i].GetComponent<Button>().enabled = true;
+            for (int j = 0; j < blackrect.Length; j++)
+            {
+                if (cards[i].GetComponent<MainPlayer>().player.nickname == blackrect[j].GetComponentInChildren<Text>().text)
+                    cards[i].GetComponent<Button>().enabled = false;
+            }
+        }
+    }
+    Global2 gl = new Global2();
 	public void ShowColl ()
     {
         my_col.SetActive(true);
         shop.SetActive(false);
 
-        Global2 gl = new Global2();
+        
         gl.DeserilizeAndroid("my_command");
         gl.SetInf(cards,gl.People);
         print("qweqwre "+gl.People.Count);
@@ -34,13 +92,30 @@ public class ShowAllPLAyerINCollection : MonoBehaviour {
     {
         if (count <= 4)
         {
-            mp = cards[n].GetComponent<MainPlayer>();
-            array_player.Add(mp.player);
-            print("press "+n);
-            blackrect[count].GetComponentInChildren<Text>().text =mp.player.nickname;
-            count++;
+            for (int i = 0; i < 5; i++)
+            {
+                if (blackrect[i].GetComponentInChildren<Text>().text == "")
+                {
+                    mp = cards[n].GetComponent<MainPlayer>();
+                    array_player.Add(mp.player);
+                    print("press " + n);
+                    blackrect[i].GetComponentInChildren<Text>().text = mp.player.nickname;
+                    blackrect[i].GetComponent<Image>().color = cards[n].GetComponent<MainPlayer>().CheckRar();
+                    cards[n].GetComponent<Button>().enabled = false;
+                    //count++;
+                    return;
+                }
+            }
+           
         }
     }
-    
+    void Start()
+    {
+        ShowColl();
+        for (int i = 0; i < gl.People.Count; i++)
+        {
+            pl.Add(gl.People[i]);
+        }
+    }
 	
 }

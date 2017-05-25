@@ -29,6 +29,7 @@ public class Menu : MonoBehaviour {
     public void OpenShop()
     {
         SceneManager.LoadScene("Shop");
+        TetstClassic.lastscene = SceneManager.GetActiveScene().name;
     }
     public MainPlayer mp;
 

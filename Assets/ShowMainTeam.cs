@@ -14,7 +14,7 @@ public class ShowMainTeam : MonoBehaviour {
     {
         Global2 gl = new Global2();
         gl.cards = cardsMainTeam;
-        gl.Deserilize("Currenteam");
+        gl.DeserilizeAndroid("currteam");
 
         gl.SetInf(cardsMainTeam,gl.People);
     

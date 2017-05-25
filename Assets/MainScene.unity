@@ -348,7 +348,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.23978126, y: 0.27222222}
   m_AnchorMax: {x: 0.78000003, y: 0.72338897}
-  m_AnchoredPosition: {x: -12.661999, y: -322.99963}
+  m_AnchoredPosition: {x: -12.661999, y: -322.99957}
   m_SizeDelta: {x: -0.10809326, y: 315.81677}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &98274877
@@ -842,7 +842,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 315.60068}
+  m_AnchoredPosition: {x: 0, y: 315.6008}
   m_SizeDelta: {x: 0, y: 208.9}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &134967282
@@ -1926,7 +1926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c80536079e3e2f4289fa5e0497812b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coins: 5000
+  coins: 100000
   diamond: 10
   inputfield: {fileID: 309489157}
 --- !u!1 &350856433

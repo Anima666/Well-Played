@@ -18,10 +18,10 @@ public class next_card : MonoBehaviour {
     {
         btn = global.GetComponent<choice_hero>().hero ;
         TetstClassic.curr_cards = new int[5];
-        gl.Deserilize("Currenteam");
+        gl.DeserilizeAndroid("currteam");
         gl.SetInfOneCard(card, gl.People[0]);
         Sprite sp;
-        image_team[0].GetComponent<Image>().color = Color.green;
+       /// image_team[0].GetComponent<Image>().color = Color.green;
         for (int i = 0; i < 5; i++)
         {
             sp = Resources.Load<Sprite>("Player/" + gl.People[i].nickname);

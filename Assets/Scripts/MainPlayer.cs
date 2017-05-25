@@ -43,7 +43,7 @@ public class MainPlayer : MonoBehaviour {
         for (int i = 0; i < backGroundSprites.Length; i++)
         {
             if (backGroundSprites[i].tag == "rarity")
-                CheckRar(backGroundSprites[i]);
+                backGroundSprites[i].color=CheckRar();
         }
     }
 
@@ -54,15 +54,22 @@ public class MainPlayer : MonoBehaviour {
         if (player.nickname.Length > 9)
             text.fontSize = text.fontSize - ((player.nickname.Length - 9) * 17);
     }
-    private void CheckRar(SpriteRenderer render)
+    public Color CheckRar()
     {
         Color32 blue_color = new Color32(51,36,152,255);
         if (player.rarity == 0)
-            render.color = Color.black;
+            return Color.black;
+        else
         if (player.rarity == 1)
-           render.color = blue_color; 
+
+            return blue_color;
+        else
         if (player.rarity == 2)
-            render.color = Color.yellow;
+            return Color.yellow;
+        else
+            return Color.black;
+
+
     }
     public void TurnEffects(GameObject ps)
     {

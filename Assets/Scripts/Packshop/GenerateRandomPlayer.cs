@@ -38,6 +38,7 @@ public class GenerateRandomPlayer : MonoBehaviour {
     public GameObject text;
     public GameObject up_panel;
     private GetMoney up_panel_getMoney;
+    List<Player> vipadshii = new List<Player>();
     public void GetCards()
     {
 
@@ -47,7 +48,7 @@ public class GenerateRandomPlayer : MonoBehaviour {
             btn_skip.SetActive(true);
            
             PlayerPrefs.SetInt("Diamond", diamond - Price);
-            up_panel_getMoney.RefreshMoney();
+           // up_panel_getMoney.RefreshMoney();
             text.SetActive(false);
             int chanceLeg;
             int chanceRare;
@@ -56,7 +57,7 @@ public class GenerateRandomPlayer : MonoBehaviour {
 
             // print("count  " + People.Count);
 
-            List<Player> sort_people = new List<Player>(); ;
+            List<Player> sort_people = new List<Player>(); 
             for (int i = 0; i < cards.Length; i++)
             {
                 cards[i].SetActive(true);
@@ -64,6 +65,7 @@ public class GenerateRandomPlayer : MonoBehaviour {
                 int rd = Random.Range(0, sort_people.Count);
                 sort_people.RemoveAt(rd);
                 mp[i].player = sort_people[rd];
+                vipadshii.Add(sort_people[rd]);
                 mp[i].sp = Resources.Load<Sprite>("Player/" + mp[i].player.nickname);
                 if (mp[i].sp == null)
                     mp[i].sp = Resources.Load<Sprite>("no_imgPlayer.png");
@@ -112,6 +114,11 @@ public class GenerateRandomPlayer : MonoBehaviour {
             cards[i].SetActive(false);
             cards[i].transform.rotation = Quaternion.Euler(0, 180, 0);
         }
+        List<Player> pl = new List<Player>();
+        Global2 gl = new Global2();
+        gl.DeserilizeAndroid("my_command");
+        gl.People.AddRange(vipadshii);
+        gl.SaveMyTeam("my_command", gl.People);
     }
 
     
