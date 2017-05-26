@@ -6,7 +6,7 @@ public class GetMoney : MonoBehaviour {
 
     public Text coins;
     public Text diamond;
-    void Start() //Поменять
+    void Awake() //Поменять
     {
         RefreshMoney();
     }

@@ -86,12 +86,17 @@ public class ShowAllPLAyerINCollection : MonoBehaviour {
             pl.Add(gl.People[i]);
         }
     }
+    public void ReverseShowColl()
+    {
+       
+    }
     public void Ok()
     {
         if (array_player.Count==5)
         {
             Global2 gl = new Global2();
             gl.SaveMyTeam("currteam",array_player);
+           
         }
     }
     public List<Player> array_player = new List<Player>();

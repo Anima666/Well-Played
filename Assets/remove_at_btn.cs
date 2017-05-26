@@ -52,6 +52,8 @@ public class remove_at_btn : MonoBehaviour {
         {
             Global2 gl = new Global2();
             gl.SaveMyTeam("currteam", pl);
+            Menu mn = new Menu();
+            mn.OpenShop();
         }
     }
 }

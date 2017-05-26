@@ -17,8 +17,15 @@ public class Menu : MonoBehaviour {
 	}
     public void OpenMatch()
     {
-        TetstClassic.lastscene = SceneManager.GetActiveScene().name;
+        Global2 gl = new Global2();
+        gl.DeserilizeAndroid("currteam");
+        if (gl.People.Count == 5)
+        {
+            TetstClassic.lastscene = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene("Match");
+        }
+        else
+            print("ne 5");
     }
     public GameObject inputpanel;
     public void InputPanel()
@@ -80,6 +87,11 @@ public class Menu : MonoBehaviour {
     }
     public void GoLastScene()
     {
+        if (TetstClassic.lastscene== "dataplayer")
+        {
+            OpenMain();
+            return;
+        }
         SceneManager.LoadScene(TetstClassic.lastscene);
     }
      public GameObject continue_btn;
