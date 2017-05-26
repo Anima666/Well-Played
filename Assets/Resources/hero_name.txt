@@ -47,7 +47,7 @@ Lich
 Lifestealer
 Lina
 Lion
-Lone_Druid
+Lone Druid
 Luna
 Lycan
 Magnus

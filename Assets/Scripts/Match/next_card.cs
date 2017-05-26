@@ -13,7 +13,9 @@ public class next_card : MonoBehaviour {
     public GameObject global;
     private GameObject[] btn;
     private GameObject[] hero_enemy_onminimap;
+    public Text[] text_role;
     GameObject[] place_on_minimap_ally;
+   
     void Start ()
     {
         btn = global.GetComponent<choice_hero>().hero ;
@@ -21,14 +23,16 @@ public class next_card : MonoBehaviour {
         gl.DeserilizeAndroid("currteam");
         gl.SetInfOneCard(card, gl.People[0]);
         Sprite sp;
-       /// image_team[0].GetComponent<Image>().color = Color.green;
+       
+
         for (int i = 0; i < 5; i++)
         {
             sp = Resources.Load<Sprite>("Player/" + gl.People[i].nickname);
             if (sp == null)
                 sp = Resources.Load<Sprite>("no_imgPlayer.png");
             image_team[i].GetComponent<Image>().sprite = sp;
-                }
+        }
+
        
 
         img1 = GetComponent<SetRandomHero>().img1;
@@ -50,8 +54,10 @@ public class next_card : MonoBehaviour {
         sr.Com_Deserilize("command");
         cm_enemy = SearchCommand("natus_vincere");
 
+      
         for (int i = 0; i < cm_enemy.pl.Count; i++)
         {
+            
             cm_enemy.pl[i].Role = SetValueAndRole(cm_enemy, i);
         }
 
@@ -67,6 +73,14 @@ public class next_card : MonoBehaviour {
         }
         SetEnemyTeamOnMinimap();
 
+        Command cm = new Command();
+        cm.pl = gl.People;
+
+        for (int i = 0; i < text_role.Length; i++)
+        {
+            string role = SetValueAndRole(cm, i);
+            text_role[i].text = role;
+        }
     }
 
     int count = 1;

@@ -19,7 +19,7 @@ public class SetMoney : MonoBehaviour {
             SceneManager.LoadScene("mainmenu");
             GameObject.FindGameObjectWithTag("canvas").GetComponentInChildren<GetMoney>().RefreshMoney();
             Global2 gl = new Global2();
-            gl.SaveMyTeam("my_command",new List<Player>());
+            gl.SaveMyTeam("my_command", new List<Player>());
             gl.SaveMyTeam("currteam", new List<Player>());
             TetstClassic.lastscene = SceneManager.GetActiveScene().name;
         }
