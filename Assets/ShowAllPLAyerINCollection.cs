@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 using UnityEngine.UI;
 
 public class ShowAllPLAyerINCollection : MonoBehaviour {
@@ -20,13 +22,9 @@ public class ShowAllPLAyerINCollection : MonoBehaviour {
             cout_page--;
             for (int i = cout_page * cards.Length; i < gl.People.Count; i++)
             {
-                
-                // print("count "+gl.People.Count);
                 if (count < cards.Length)
                 {
                     pl.Insert(0,gl.People[i]);
-                    //gl.SetInf();
-                    
                     count++;
                 }
             }
@@ -68,6 +66,7 @@ public class ShowAllPLAyerINCollection : MonoBehaviour {
         }
     }
     Global2 gl = new Global2();
+
 	public void ShowColl ()
     {
         my_col.SetActive(true);
@@ -75,9 +74,18 @@ public class ShowAllPLAyerINCollection : MonoBehaviour {
 
         
         gl.DeserilizeAndroid("my_command");
-        gl.SetInf(cards,gl.People);
+        
         print("qweqwre "+gl.People.Count);
-	}
+        var list = gl.People.OrderByDescending(x=>x.rarity).ToList();
+        gl.People = list;
+        gl.SetInf(cards,gl.People);
+     
+        
+        for (int i = 0; i < gl.People.Count; i++)
+        {
+            pl.Add(gl.People[i]);
+        }
+    }
     public void Ok()
     {
         if (array_player.Count==5)
@@ -111,11 +119,8 @@ public class ShowAllPLAyerINCollection : MonoBehaviour {
     }
     void Start()
     {
-        ShowColl();
-        for (int i = 0; i < gl.People.Count; i++)
-        {
-            pl.Add(gl.People[i]);
-        }
+       // ShowColl();
+        
     }
 	
 }

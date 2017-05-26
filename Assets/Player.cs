@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
+
 [System.Serializable]
 public class Player
 {
@@ -27,6 +29,8 @@ public class Player
     {
 
     }
+
+  
 }
     public class Player1 : MonoBehaviour {
 
