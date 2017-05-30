@@ -6,6 +6,7 @@ public class team_tacticsChoice : MonoBehaviour {
 
     public GameObject on_minimapOfflane;
     public GameObject supp_iziLine;
+   
 
     public GameObject start_panel;
     public GameObject match_panel;

@@ -39,12 +39,14 @@ public class GenerateRandomPlayer : MonoBehaviour {
     public GameObject up_panel;
     private GetMoney up_panel_getMoney;
     List<Player> vipadshii = new List<Player>();
+    public GameObject btn_buy;
     public void GetCards()
     {
 
         int diamond = PlayerPrefs.GetInt("Diamond");
         if (diamond >= Price)
         {
+           
             btn_skip.SetActive(true);
            
             PlayerPrefs.SetInt("Diamond", diamond - Price);
@@ -72,6 +74,7 @@ public class GenerateRandomPlayer : MonoBehaviour {
                 mp[i].Refesh();
 
             }
+            btn_buy.SetActive(false);
         }
         
         
@@ -107,6 +110,7 @@ public class GenerateRandomPlayer : MonoBehaviour {
     public void Skip()
     {
         btn_skip.SetActive(false);
+        btn_buy.SetActive(true);
         text.SetActive(true);
         for (int i = 0; i < cards.Length; i++)
         {
